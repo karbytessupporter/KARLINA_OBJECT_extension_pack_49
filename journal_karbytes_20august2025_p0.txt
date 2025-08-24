@@ -1,0 +1,38 @@
+/**
+ * file: journal_karbytes_20august2025_p0.txt
+ * type: plain-text
+ * date: 20_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+Although it has been said before somewhere within karbytes, I feel the need to say it again (perhaps more clearly this time):
+
+1. Every WordPress dot Com web page (which is part of the website named Karlina Object for Life Blog dot WordPress dot Com or else part of the website named Karbytes For Life Blog dot WordPress dot Com) is publicly accessible by clicking on hyperlinks within web pages of those websites starting from the home page (i.e. START_PAGE) of either of those two websites.
+
+Example WordPress dot Com Web Page Access Path:
+
+[preformatted_text]
+
+https://karbytesforlifeblog.wordpress.com/ -> https://karbytesforlifeblog.wordpress.com/raw_github_files_macro_directory/ -> https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_48/ -> https://karbytesforlifeblog.wordpress.com/the_big_green_thing/
+
+[end preformatted_text]
+
+2. Every raw GitHub-hosted file (which is linked to from some web page within the website named Karlina Object for Life Blog dot WordPress dot Com or else from some web page within the website named Karbytes For Life Blog dot WordPress dot Com) is publicly accessible by clicking on hyperlinks within web pages of those websites starting from the home page (i.e. START_PAGE) of either of those two websites.
+(The next piece of information in this numbered list has not yet been mentioned in the canon karbytes).
+
+Example Raw GitHub-Hosted File Access Path:
+
+[preformatted_text]
+
+https://karlinaobject.wordpress.com/ -> https://karlinaobject.wordpress.com/base_converter/ -> https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/base_converter_arithmetic.js
+
+[end preformatted_text]
+
+3. There exists a website hosted from a GitHub account owned by the GitHub user named @karbytessupporter which allegedly contains at least one hyperlink to every file which comprises the website named Karlina Object dot WordPress dot Com and the website named Karbytes For Life Blog dot WordPress dot Com. 
+
+Specifically, that GitHub-hosted website (owned by @karbytessupporter) allegedly links to 
+
+(a) every WordPress dot Com web page which comprises the website named Karlina Object dot WordPress dot Com or else the website named Karbytes For Life Blog dot WordPress dot Com and 
+
+(b) to every raw GitHub-hosted file which is linked to by some web page within the website named Karlina Object dot WordPress dot Com or else by some web page within the website named Karbytes For Life Blog dot WordPress dot Com.

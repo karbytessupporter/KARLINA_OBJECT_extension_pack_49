@@ -1,0 +1,59 @@
+/**
+ * file: journal_karbytes_18august2025_p0.txt
+ * type: plain-text
+ * date: 17_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a ChatGPT Agent Mode prompt for analyzing relatively essential components of karbytes.
+
+* * *
+
+1. Review the following definition web pages:
+
+- https://karbytesforlifeblog.wordpress.com/karbytes_code_possibly_stops_growing/
+
+- https://karbytesforlifeblog.wordpress.com/micro_directory_definition/
+
+- https://karbytesforlifeblog.wordpress.com/karbytes_code_continues/
+
+- https://karlinaobject.wordpress.com/public_domain/
+
+- https://karbytesforlifeblog.wordpress.com/about_karbytes/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_macro_directory/
+
+- https://karbytesforlifeblog.wordpress.com/software_engineering_portfolio/
+
+2. Examine each raw GitHub file which is linked to by the following "micro directory" web pages:
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARBYTES_FOR_LIFE_BLOG/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARBYTES_BLOG_APPS_github_hosted_website/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_38/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_39/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_40/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_41/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_42/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_43/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_44/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_45/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_46/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_47/
+
+- https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARLINA_OBJECT_extension_pack_48/
+
+3. Provide a detailed summary and analysis of each of the aforementioned "micro directory" web pages and a detailed summary and analysis relating each of the web pages and raw GitHub files referenced by this prompt.
