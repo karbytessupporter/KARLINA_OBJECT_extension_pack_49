@@ -1,0 +1,37 @@
+/**
+ * file: journal_karbytes_25august2025_p0.txt
+ * type: plain-text
+ * date: 25_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+Tentative Plan for Archiving the Whole Genome of KARBYTES:
+
+1. Acquire Dante Labs basic whole genome sequencing kit.
+
+2. Record kit information (e.g. sample ID) and enter it in Dante Labs Genome Manager website (to authorize processing of biological sample and data collection).
+
+3. Send biological sample (e.g. saliva in sealed collection tube) back to Dante Labs.
+
+4. Monitor status of sample via Dante Labs Genome Manager website. (Expected Wait Time: 6 weeks to 2 years).
+
+5. Acquire an external hard drive with at least 2 terabytes of memory (because laptop storage space is insufficient).
+
+6. Download Dante Lab genome files onto the external hard drive.
+
+7. Split the genome files into chunks no larger than 20 gigabytes each and store those chunks on the external hard drive.
+
+8. For each of those ≤ 20 gigabyte chunks, burn the respective data contents onto a 25 gigabyte M_DISC (using label format: karbytes_genome_data_dante_labs_FASTQ_part_x).
+
+9. For each of those ≤ 20 gigabyte chunks, upload the respective data contents to personal Internet Archive files library.
+
+10. Create a web page which links to each of those (public) Internet Archive upload pages and link that indexing page to the following web page: https://karbytesforlifeblog.wordpress.com/karbytes_full_genome/
+
+11. Split each of the ≤ 20 gigabyte chunks of genome data into chunks no larger than 20 megabytes each and store those ≤ 20 megabyte files on the external hard drive (using label format: karbytes_genome_data_dante_labs_FASTQ_part_x_file_y).
+
+12. Upload each of those ≤ 20 megabyte files to a karbytes GitHub repository (using label format: karbytes_genome_data_repository_z).
+
+13. Create a directory of web pages which links to each of those (public) GitHub repository raw files and link that indexing page to the following web page: https://karbytesforlifeblog.wordpress.com/karbytes_full_genome/
+
+(Note that the raw GitHub file links are intended to eventually each be saved to the WayBack Machine multiple times while the Internet Archive uploaded file pages are intended to be convenient ways to obtain karbytes' entire genome from the public web).

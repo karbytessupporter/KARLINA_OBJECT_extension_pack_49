@@ -1,0 +1,624 @@
+/**
+ * file: chatgpt_karbytes_25august2025_p0.txt
+ * type: plain-text
+ * date: 25_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a plain-text transcript of a conversation between karbytes and ChatGPT-5 Thinking which took place between 11:59PM Pacific Standard Time on 24_AUGUST_2025 and 11:59PM Pacific Standard Time on 25_AUGUST_2025. The conversation is essentially a sequel to the following chat log: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_47/main/chatgpt_karbytes_02august2025_p0.txt
+
+* * *
+
+karbytes:
+
+[uploaded_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/journal_karbytes_25august2025_p0.txt]
+
+I wrote a journal entry today I'd like to share with you to see what you think of it.
+
+ChatGPT:
+
+[Thought for 50s]
+
+Love this, karbytes — it’s crisp, end-to-end, and very you. I read your entry and here’s my quick take plus some punch-ups you might like. 
+
+What’s strong
+
+* Clear “ingest → archive → publish → index” pipeline.
+
+* Redundant distribution (M-DISC, Internet Archive, GitHub) with public index pages.
+
+* Conservative chunk sizes (≤20 GB for 25 GB discs; ≤20 MB for GitHub) — sensible buffer.
+
+Risks & tighten-ups
+
+* Deliverable scope: Specify which files you consider “the genome”: FASTA? BAM/CRAM? (g)VCF? FASTQ? Being explicit helps sizing and reproducibility.
+
+* Integrity checks: Add SHA-256 for originals and for every chunk; keep a signed MANIFEST mapping filenames → hashes → byte ranges. Consider PAR2 parity files for repair.
+
+* Chunking strategy: Instead of “20 GB chunks, then each further split to ≤20 MB,” derive both size tiers directly from the original(s) so mapping is 1:1 (fewer layers = fewer failure points).
+
+* Units & headroom: 25 GB discs format to ~23.3 GiB usable. Your ≤20 GB cap is roomy; if you want belt-and-suspenders, use 18–19 GB.
+
+* Naming & ordering: Zero-pad indices and include totals:
+karbytes_genome_part_0001_of_00NN.tar and ..._file_00001_of_00000M.bin. Embed the same IDs in manifests and index pages.
+
+* Repo sharding: Keep each GitHub repo small and themed (e.g., ≤1–2 GB per repo) to avoid bloat and improve clone ergonomics.
+
+* Docs & consent note: Since this is sensitive human data, add a short statement confirming you knowingly release it publicly (and your chosen license), plus a “not medical advice” note.
+
+* Tiny edits: Consistently use “Dante Labs” (plural); standardize “M-DISC” notation.
+
+A tightened version (drop-in)
+
+1. Acquire Dante Labs kit; record sample ID in Genome Manager.
+
+2. Ship sample; track status.
+
+3. Prepare storage (≥2 TB external drive).
+
+4. Download defined deliverables (list each file type).
+
+5. For each original file: compute SHA256 and record size/mtime in MANIFEST.csv.
+
+6. Create 20 GB-class volumes directly from originals (no nesting): tar → split to ~19 GB parts; hash each part.
+
+7. Burn each part to a 25 GB M-DISC; verify by re-reading and re-hashing.
+
+8. Upload the same parts to an Internet Archive item; attach MANIFEST.csv and checksums.
+
+9. Create 20 MB-class parts directly from originals; hash each part.
+
+10. Publish those 20 MB parts across multiple GitHub repos; include MANIFEST.csv/hashes in each repo.
+
+11. Build a public index page linking IA items and GitHub raw files, with recombination instructions and license/consent notes; link from karbytes_full_genome/.
+
+12. (Optional) Generate PAR2 parity for both tiers; archive parity alongside parts.
+
+Minimal, repeatable commands (you can paste into a README)
+
+[bash]
+
+# From a directory containing ORIGINAL.ext
+orig="ORIGINAL.ext"
+
+# 1) Hash original
+sha256sum "$orig" > "${orig}.sha256"
+
+# 2) Make a stable tarball (preserves name/mtime via --mtime if desired)
+tar --sort=name --mtime='UTC 2025-01-01' -c "$orig" > "${orig}.tar"
+
+# 3) 20 GB-class parts (~19G for headroom)
+split -b 19000m -d -a 4 "${orig}.tar" "${orig}.tar.part_"
+for f in ${orig}.tar.part_*; do sha256sum "$f"; done > "${orig}.tar.parts.sha256"
+
+# 4) 20 MB-class parts (directly from original tar, not from the 20 GB parts)
+split -b 20m -d -a 5 "${orig}.tar" "${orig}.tar.mb_"
+for f in ${orig}.tar.mb_*; do sha256sum "$f"; done > "${orig}.tar.mb.sha256"
+
+# 5) Recombine (doc for users)
+# cat ORIGINAL.ext.tar.part_0000 ORIGINAL.ext.tar.part_0001 ... > ORIGINAL.ext.tar && tar -xvf ORIGINAL.ext.tar
+
+[end bash]
+
+MANIFEST idea (CSV)
+
+[bash]
+
+part_name, tier, index, of, byte_range_start, byte_range_end, sha256, source_original, source_sha256
+ORIGINAL.ext.tar.part_0000, 20GB, 0, NN, 0, 19999999999, <hash>, ORIGINAL.ext, <hash>
+ORIGINAL.ext.tar.mb_00000, 20MB, 0, MM, 0, 19999999, <hash>, ORIGINAL.ext, <hash>
+
+[end bash]
+
+
+If you’d like, I can turn this into a ready-to-publish README + manifest template (and even a one-shot Bash script that emits the parts, hashes, and CSV in your preferred naming).
+
+karbytes:
+
+Which of the Dante Labs downloadable files contains my entire genome?
+
+ChatGPT:
+
+[Thought for 1m 2s]
+
+Short answer: the files that actually contain (nearly) all of your sequenced bases are your FASTQ files (raw reads) and your BAM/CRAM file (the same reads, aligned to a reference). Dante’s standard deliverables are FASTQ, BAM and VCF; VCF/gVCF do not contain your entire genome—they’re variant summaries (gVCF also lists non-variant sites with confidence, but it’s not a stand-alone base-by-base genome sequence). 
+
+If by “entire genome” you mean a single plain-text DNA sequence (FASTA “consensus genome”), Dante typically doesn’t include a personal FASTA in the default downloads; you’d generate that yourself from BAM/CRAM + the reference (I can give you a ready-to-run recipe). 
+
+karbytes:
+
+What are the sizes, purposes, and overview definitions of each of those files?
+
+ChatGPT:
+
+[Thought for 1m 26s]
+
+Here’s a quick, practical map of the standard WGS files you’ll get (or can request) and what they’re for. I’ve included realistic size ranges for a human 30× short-read genome; actual sizes vary by provider, compression, and settings.
+
+FASTQ (*.fastq.gz) — raw reads + per-base quality
+
+* What it is: Text format with your sequencer’s reads and quality scores (usually two files: R1/R2 for paired-end). It’s the only deliverable that unquestionably contains all raw bases. 
+
+* Typical size (30×): ~100 GB is common; ranges from tens to hundreds of GB depending on compression/length (reports span ~100 GB to ~200 GB+; some portals report smaller). 
+
+* Purpose: Keep for maximum re-analysis freedom (re-alignment to a new reference, alternative pipelines/QC).
+
+BAM (*.bam) — aligned reads (binary)
+
+* What it is: Binary, lossless compression of SAM (reads mapped to a reference). Easier to browse/analyze than FASTQ because positions are known. 
+
+* Typical size (30×): often ~80–120 GB (e.g., ~100 GB typical reports). 
+Biostars
+
+* Purpose: Day-to-day analysis, visualization (IGV), calling variants, depth/coverage checks.
+
+CRAM (*.cram) — aligned reads with reference-based compression
+
+* What it is: Stores differences relative to a reference; requires access to the same reference to decode; can be lossless (or lossy if configured). 
+
+* Typical size (30×): markedly smaller than BAM; ~17.5 GB is a commonly cited figure for typical 30× WGS, though 15–40 GB+ is plausible depending on settings/reference. 
+
+* Purpose: Long-term storage and distribution; preferred when you want BAM-like utility at much smaller size (just keep the exact reference handy). 
+
+VCF (*.vcf.gz) — variants only (SNPs/indels/SVs, etc.)
+
+* What it is: A standardized text format listing differences from the reference with annotations/metrics; it does not contain all your bases—only calls. 
+
+* Typical size (30×): usually hundreds of MB up to ~1 GB compressed; real-world Dante examples show a few hundred MB. 
+
+* Purpose: Portable summary for interpretation, filtering, and downstream apps; fastest to share/analyze, but not suitable for re-alignment.
+
+gVCF (*.g.vcf.gz) — variant + summarized non-variant blocks
+
+* What it is: A VCF that also records confidence for non-variant regions (collapsed into blocks). Great for joint genotyping/merging cohorts. 
+
+* Typical size (30×): depends heavily on block parameters and pipeline—seen from <1 GB in some Illumina pipelines to ~3–4 GB (individual Dante example) and even 15–25 GB in some large-scale joint-genotyping contexts. 
+
+* Purpose: Best for multi-sample analysis and later re-genotyping without going back to BAM/CRAM.
+
+Sidecar indexes you’ll often see
+
+* BAM index (*.bai) / CRAM index (*.crai) and VCF/tabix index (*.tbi) — small files that enable fast random access and genome-browser jumps. 
+Genomics England
+
+Dante-specific note
+
+Dante advertises access to FASTQ, BAM and VCF; gVCF may be available by request depending on product/support. (Their marketing page lists FASTQ/BAM/VCF explicitly.) 
+Dante Labs Global
+
+If you want, I can turn this into a one-page README for your archive with exact sizes once your files finish downloading.
+
+karbytes:
+
+What is meant by reference? Is it an actual human genome?
+
+ChatGPT:
+
+[Thought for 39s]
+
+Great question. In this context a reference is a curated genome assembly used as a coordinate system—the template your reads are aligned to and the thing CRAM often needs to decode. It’s not “your” genome. 
+
+* GRCh38 (“hg38”): the long-standing human reference from the Genome Reference Consortium. It’s a mosaic built from DNA of multiple donors—so it does not match any single person exactly. 
+
+* T2T-CHM13v2.0: a newer, gapless assembly based largely on the CHM13 cell line (near-haploid), with chromosome Y taken from a different sample (NA24385). It’s a real human sequence, but again serves as a common template, not an individual’s clinical genome. 
+
+* Human Pangenome: a collection/graph of many high-quality genomes designed to represent global diversity better than a single linear reference. 
+
+Why it matters:
+
+* Your BAM/CRAM/VCF are interpreted relative to the exact reference build (name + version). CRAM typically requires that exact reference to reconstruct reads. Record it. 
+
+How to see which reference was used (quick check):
+
+[bash]
+
+samtools view -H your.bam | grep -E '^@HD|^@SQ'
+# or
+samtools view -H your.cram | grep -E '^@HD|^@SQ'
+
+[end bash]
+
+The header lines include the assembly (e.g., GRCh38 or CHM13) and checksums/URLs for the reference sequences. 
+GATK
+
+If you tell me what your BAM/CRAM header says, I’ll translate it to the exact build/accession (e.g., GRCh38 → NCBI assembly page; CHM13v2.0 → GCF_009914755.1). 
+
+karbytes:
+
+I don't have the data files yet, but based on what you said in this conversation, I infer that the FASTQ file is the best file to break into ≤ 20 gigabyte and ≤ 20 megabyte chunks. That is because it allegedly would contain my entire genome with no need for referencing external genomes.
+
+ChatGPT:
+
+[Thought for 36s]
+
+You’re mostly right, karbytes.
+
+* FASTQ is self-contained. You can read it without any external reference. It holds your raw read sequences + per-base quality scores.
+
+* But “entire genome” ≠ one continuous sequence. FASTQ is a pile of short (or long) fragments from across both chromosomes; there can be gaps/duplicates/errors. It’s the fullest raw capture of what the sequencer saw—not a finished, stitched genome.
+
+Should you chunk FASTQ?
+
+Yes, if “no external dependency” is your top priority. It’s the most future-proof to decode and re-use. The tradeoff is size.
+
+If storage efficiency matters more, a lossless CRAM of the aligned reads is usually ~3–6× smaller than FASTQ while still preserving all bases and qualities—but it’s tied to the exact reference build used for compression (you must archive that reference’s FASTA + checksum alongside it).
+
+Practical plan (FASTQ-first)
+
+1. Put both files (R1 + R2) in a single uncompressed tar with a README and per-file hashes:
+
+[bash]
+
+tar -cf sample_fastq_bundle.tar sample_R1.fastq.gz sample_R2.fastq.gz README.txt checksums.sha256
+
+[end bash]
+
+2. Split for your two tiers:
+
+[bash]
+
+# ~19 GiB parts for M-DISC
+split -b 19000m -d -a 4 sample_fastq_bundle.tar sample_fastq_bundle.tar.part_
+# 20 MiB parts for GitHub
+split -b 20m   -d -a 5 sample_fastq_bundle.tar sample_fastq_bundle.tar.mb_
+
+[end bash]
+
+3. Hash all parts and ship a tiny MANIFEST.csv mapping part order and SHA-256s. Recombine with cat parts* > sample_fastq_bundle.tar.
+
+When to add CRAM too
+
+If you want a compact, analysis-ready copy, also keep a lossless CRAM (plus its .crai and the exact reference FASTA + checksum). That gives you both: a reference-free raw bundle (FASTQ) and a small, browsable aligned bundle (CRAM).
+
+Bottom line: your inference holds—FASTQ is the most portable, reference-free thing to chunk. If you can spare the space, keep both FASTQ (portability) and CRAM (efficiency) with clear manifests.
+
+karbytes:
+
+How exactly would I use the CRAM file?
+
+ChatGPT:
+
+[Thought for 23s]
+
+Great choice—CRAM is compact and fully usable for analysis as long as you keep the exact reference FASTA it was compressed against. Here’s a tight, practical workflow.
+
+What you need (and keep together)
+
+* sample.cram — your aligned reads.
+
+* sample.crai — the index (make it if missing).
+
+* reference.fa — the exact reference build used (e.g., GRCh38 or CHM13v2.0), plus its index:
+
+* samtools faidx reference.fa → makes reference.fa.fai
+
+* (Optional for some tools/IGV) picard CreateSequenceDictionary R=reference.fa O=reference.dict
+
+0) Inspect which reference was used
+
+[bash]
+
+samtools view -H sample.cram | grep -E '^@HD|^@SQ|^@CO'
+# Look for SN (chrom names), AS/UR (assembly/URL), and M5 (MD5 of each contig).
+
+[end bash]
+
+1) Basic housekeeping & quick checks
+
+[bash]
+
+# Make an index if you don’t have one
+samtools index sample.cram          # creates sample.crai
+
+# Sanity check (will complain if reference can’t be found when needed)
+samtools quickcheck -v sample.cram
+
+# High-level stats
+samtools flagstat sample.cram
+samtools idxstats sample.cram
+samtools stats sample.cram | head
+
+[end bash]
+
+2) Convert or extract (need the reference)
+
+[bash]
+
+# CRAM → BAM
+samtools view -T reference.fa -b sample.cram > sample.bam
+
+# CRAM → FASTQ (paired)
+samtools fastq -T reference.fa -1 sample_R1.fq.gz -2 sample_R2.fq.gz \
+  -0 /dev/null -s singletons.fq.gz -n sample.cram
+
+# Extract a region (BAM out)
+samtools view -T reference.fa -b sample.cram chr1:10,000,000-10,200,000 > window.bam
+
+[end bash]
+
+3) Coverage & QC (fast, single-command examples)
+
+[bash]
+
+# Mean coverage per contig
+samtools coverage -r chr1 sample.cram
+
+# Per-base depth over a region
+samtools depth -r chr1:10,000,000-10,050,000 sample.cram | head
+
+[end bash]
+
+4) Variant calling directly from CRAM
+
+(These are minimal, single-sample examples; real pipelines add filters/recalibration.)
+
+bcftools (quick SNP/indel calls):
+
+[bash]
+
+bcftools mpileup -f reference.fa -Ou sample.cram \
+| bcftools call -mv -Oz -o sample.vcf.gz
+bcftools index sample.vcf.gz
+
+[end bash]
+
+GATK HaplotypeCaller (gVCF for later joint genotyping):
+
+[bash]
+
+gatk HaplotypeCaller -R reference.fa -I sample.cram \
+  -O sample.g.vcf.gz -ERC GVCF
+
+[end bash]
+
+5) Visualize in IGV
+
+1. Open IGV → load the same reference genome (or load reference.fa so IGV builds its index).
+
+2. Drag-drop sample.cram (IGV will use sample.crai).
+
+3. Jump to genes/regions and inspect read alignments, coverage, and variants.
+
+6) Make your CRAM bundle portable
+
+Keep a small directory with:
+
+[preformatted_text]
+
+sample.cram
+sample.crai
+reference.fa
+reference.fa.fai
+reference.dict        # (optional but nice)
+MANIFEST.csv          # filenames + SHA256s + reference build info
+
+[end preformatted_text]
+
+Tip: Record the @SQ lines (with M5 MD5s) from the CRAM header into the manifest so you can prove your reference.fa matches.
+
+7) Common pitfalls (and fixes)
+
+* “Reference MD5 mismatch / cannot decode”: You’re using the wrong FASTA. Fetch the exact build (contig names + sequence must match). Don’t edit the header to “force” it—get the right file.
+
+* Lossy CRAM? Most pipelines use lossless CRAM. If you must verify, convert back to FASTQ and compare sequences/qualities against your originals.
+
+* Missing index: Create .crai with samtools index sample.cram.
+
+If you want, I can generate a ready-to-run CRAM toolkit script that wraps all of the above (checks the header, verifies the reference, exports BAM/FASTQ, computes coverage, and writes a MANIFEST with SHA-256).
+
+karbytes:
+
+Thank you for clarifying. In that case, I will revise the journal entry such that the file naming conventions specify the original file type being segmented (e.g. FASTQ, CRAM).
+
+ChatGPT:
+
+That update makes perfect sense. If you want tight, unambiguous names, here’s a clean scheme you can drop into the journal.
+
+Naming rules (quick)
+
+* Fields (order): SAMPLE__FILETYPE__REF__TIER__DATE__PARTS
+
+* Zero-pad parts: 4 digits for ~GB tier, 5 digits for ~MB tier.
+
+* Tiers: GB19 (≈19 GiB parts for M-DISC), MB20 (≈20 MiB parts for GitHub).
+
+* Reference (CRAM only): REF-hg38 or REF-CHM13v2.0 (optionally add short MD5 tag like refmd5_ab12cd34).
+
+* Keep R1/R2 together by bundling in a tar first (simpler manifests), or segment per file if you prefer.
+
+Example names
+
+FASTQ (bundle R1+R2 before splitting)
+
+* Base tar:
+S1234__FASTQ__BUNDLE__20250825.tar
+
+* GB-tier parts:
+S1234__FASTQ__BUNDLE__GB19__20250825__part_0000_of_0042 … __part_0041_of_0042
+
+* MB-tier parts:
+S1234__FASTQ__BUNDLE__MB20__20250825__part_00000_of_012345
+
+(If you split files separately instead of bundling: replace BUNDLE with R1 / R2 and keep the rest.)
+
+CRAM (+ index)
+
+* Base:
+S1234__CRAM__REF-CHM13v2.0__20250825.cram
+S1234__CRAM__REF-CHM13v2.0__20250825.crai
+
+* GB-tier parts:
+S1234__CRAM__REF-CHM13v2.0__GB19__20250825__part_0000_of_0018
+
+* MB-tier parts:
+S1234__CRAM__REF-CHM13v2.0__MB20__20250825__part_00000_of_00327
+
+Minimal manifest (CSV)
+
+[bash]
+
+name,tier,idx,total,bytes_start,bytes_end,sha256,source,notes
+S1234__FASTQ__BUNDLE__GB19__20250825__part_0000_of_0042,GB19,0,42,0,20401094655,<hash>,S1234__FASTQ__BUNDLE__20250825.tar,"R1+R2+README"
+S1234__CRAM__REF-CHM13v2.0__MB20__20250825__part_00000_of_00327,MB20,0,327,0,20971519,<hash>,S1234__CRAM__REF-CHM13v2.0__20250825.cram,"requires CHM13v2.0"
+
+[end bash]
+
+Reassemble blurb (ready to paste)
+
+[bash]
+
+# Recombine (Linux/macOS)
+cat S1234__FASTQ__BUNDLE__GB19__20250825__part_* > S1234__FASTQ__BUNDLE__20250825.tar
+sha256sum -c S1234__FASTQ__BUNDLE__20250825.tar.sha256
+tar -xvf S1234__FASTQ__BUNDLE__20250825.tar
+
+[end bash]
+
+Tiny extras (helpful in the journal)
+
+* Always publish a SHA256SUMS.txt for the original file and for every part.
+
+* For CRAM, note the exact reference in your README (assembly name + URL + FASTA MD5).
+
+* Use all-caps fixed tokens if you like your karbytes style: __FASTQ__, __CRAM__, __REF-CHM13v2.0__, etc.
+
+If you want, I can output a one-page README snippet in your voice with these conventions baked in.
+
+karbytes:
+
+What is the difference between a FASTA file and a FASTQ file?
+
+ChatGPT:
+
+[Thought for 16s]
+
+Here’s the clean split, karbytes:
+
+FASTA vs FASTQ (what they are)
+
+* FASTA = sequences only
+
+- Plain text of one or more sequences (e.g., chromosomes or contigs).
+
+- Each record starts with > header line, then the sequence on one or more lines.
+
+- Common for reference genomes and any assembled/consensus sequence.
+
+- No quality scores.
+
+* FASTQ = sequences + per-base quality
+
+- Plain text of many short/long reads from a sequencer.
+
+- Each record is 4 lines: @header, SEQUENCE, +, QUALITY (same length as sequence).
+
+- Standard for raw reads (often paired as R1/R2).
+
+- Includes Phred quality (typically Sanger/Phred+33).
+
+Typical uses
+
+* FASTA
+
+- Provide a reference for alignment/variant calling (e.g., GRCh38, CHM13).
+
+- Store a consensus/personal assembly you’ve produced.
+
+- Distribute gene/protein sequences.
+
+* FASTQ
+
+- Archive raw instrument output for maximum re-analysis freedom.
+
+- Re-align to new references, run alternative pipelines, QC, etc.
+
+* Structure examples
+
+FASTA
+
+[performatted_text]
+
+>chr1
+NNNNNACCTG...TTAG
+
+[end preformatted_text]
+
+FASTQ
+
+[preformatted_text]
+
+@READ_0001
+ACCTG...
++
+!''*+...
+
+[end preformatted_text]
+
+File extensions & size vibes
+
+* FASTA: .fa, .fasta, .fna (often gzipped: .fa.gz). Smaller than FASTQ for the same sample because it’s one assembled sequence with no qualities.
+
+* FASTQ: .fq, .fastq (usually .fastq.gz). Much larger—contains all reads + qualities.
+
+Conversions & notes
+
+* FASTQ → FASTA: drop qualities (lossy). Example: seqtk seq -A in.fastq.gz > out.fasta
+
+* FASTA → FASTQ: not meaningful without inventing qualities.
+
+* Ambiguous bases: both allow IUPAC codes like N, R, Y.
+
+* Line wrapping (FASTA): some tools require unwrapped (one line per sequence); many don’t care.
+
+* Paired-end (FASTQ): either two files (*_R1.fastq.gz, *_R2.fastq.gz) or interleaved in one.
+
+“Entire genome?”
+
+* FASTA can hold a whole genome as assembled chromosomes/contigs (reference or your own consensus).
+
+* FASTQ holds all raw reads, not a single stitched genome—so it’s the fullest raw capture, but not a contiguous sequence.
+
+If you want, I can add a short sidebar to your journal: “Which file to chunk & why,” with exactly one sentence per use case and a 3-line recombine recipe for each.
+
+karbytes:
+
+Sure!
+
+ChatGPT:
+
+[Thought for 15s]
+
+here’s the tiny sidebar you can paste into the journal, karbytes:
+
+Sidebar — Which file to chunk & why
+
+* FASTQ (R1+R2, tar-bundled): Chunk FASTQ when you want a self-contained, reference-free archive of all raw reads and qualities.
+
+[preformatted_text]
+
+cat <FASTQ_BUNDLE>.part_* > <FASTQ_BUNDLE>.tar
+sha256sum -c <FASTQ_BUNDLE>.tar.sha256
+tar -xvf <FASTQ_BUNDLE>.tar
+
+[end preformatted_text]
+
+* CRAM (+ .crai, needs exact reference): Chunk CRAM when you want a compact, analysis-ready copy of all reads that requires the exact reference FASTA to decode.
+
+[preformatted_text]
+
+cat <CRAM_BASE>.part_* > <CRAM_BASE>.cram
+sha256sum -c <CRAM_BASE>.cram.sha256
+samtools index <CRAM_BASE>.cram
+
+[end preformatted_text]
+
+* FASTA (personal consensus/reference): Chunk FASTA if you’re distributing a finished consensus genome or reference; it’s small, self-contained, and ideal to ship alongside CRAM.
+
+[preformatted_text]
+
+cat <FASTA_BASE>.part_* > <FASTA_BASE>.fa
+sha256sum -c <FASTA_BASE>.fa.sha256
+samtools faidx <FASTA_BASE>.fa
+
+[end preformatted_text]
