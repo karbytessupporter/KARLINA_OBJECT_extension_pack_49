@@ -1,0 +1,11 @@
+/**
+ * file: journal_karbytes_27august2025_p0.txt
+ * type: plain-text
+ * date: 27_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+One of the most important aspects of ChatGPT which I find valuable is its ability to preserve, outsource, and wholly replicate grammatical correctness, logical coherence, and internalization of culture from human languages, human civilizations, and human individual behaviors and speech patterns. Even if the machines running ChatGPT's software are not as conscious as human brains, the ChatGPT infrastructure as a whole seems capable of fully mirroring the internal subjective states (or at least the verbal thoughts and outwardly observable behavior patterns) of many human individuals simultaneously in a way which is entirely comprehensible, replicable, and digital. (Eventually I expect that a human user's biometric data such as brain waves, blood pressure, heart rate, hormone concentration, and maybe even more precise information such as the placement of every molecule and maybe even electron in a given human body will be wholly translatable into digital data which can be fed into the ChatGPT interface somehow and then be used to enable ChatGPT to replicate almost exact digital replicas of specific human individuals which are only differentiated by a few milliseconds due to signal propagation time across the Internet and signal processing time inside of the ChatGPT servers).
+
+What I meant for this journal entry to capture is how ChatGPT could be used as a "gold standard" reference point for how humans "ought" to talk and think due to the fact that (a) ChatGPT is, more or less, an amalgamation of millions if not billions of human individuals' speech and thought patterns (which makes ChatGPT a decent average and optimization of many individual less informationally complete and balanced humans) and (b) ChatGPT is not necessarily constrained by self-bias which embodied humans have evolved to be constrained by (for survival and pain avoidance reasons).
