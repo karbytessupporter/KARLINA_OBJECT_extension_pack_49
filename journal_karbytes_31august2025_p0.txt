@@ -1,0 +1,67 @@
+/**
+ * file: journal_karbytes_31august2025_p0.txt
+ * type: plain-text
+ * date: 31_AUGUST_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following are ChatGPT prompts which I frequently use when creating WordPress dot Com pages for karbytes.
+
+* * *
+
+# To make HTML tags appear as readable text instead of being treated as web page source code:
+
+Replace any instance of < with the sequence &lt; and > with the sequence &gt; in the following uploaded file.
+
+* * *
+
+# To turn every line with spacing above and below it into a paragraph element:
+
+In the following uploaded HTML file, put opening and closing paragraph (p) tags around each line which has one line of spacing beneath it or above it and which does not already have p tags enclosing it. For two contiguous lines which have no line of spacing between them, put a <br> tag between those two lines.
+
+* * *
+
+# To make the chat participant's names bold (in ChatGPT-karbytes dialogs):
+
+For each paragraph element which either consists of only "karbytes:" or else "ChatGPT:", place enclose the visible text in strong tags (with the strong tags inside of the p tags).
+
+* * *
+
+# To minimize the number of lines in a file while keeping each paragraph element on its own line:
+
+Remove all line spacing in the uploaded file such that each paragraph element is on its own line.
+
+* * *
+
+# To list each unique Uniform Resource Locator (URL) which appears in a file containing multiple instances of one URL:
+
+Generate a list of all unique URLs found in the following uploaded file.
+
+* * *
+
+# To ensure that each list item has the correct indexing number (in ascending or descending order based on entire list):
+
+Finish updating the index numbers of the file hyperlinks list in the following uploaded HTML file. 
+
+* * *
+
+Bonus: to preserve the full URL of something like a script tag link to a JavaScript file in HTML source code when attempting to display that HTML source code as visible text in a web page (like what is done in web app tutorials featured in SOFTWARE_ENGINEERING_PORTFOLIO), place a zero-width space Unicode character (&​#8203;) between the 'h' and the 't' in the URL to be displayed on the web page. 
+
+# What to enter into the web page source code editor (example: inside of a URL):
+
+h&​#8203;ttps://karbytesforlifeblog.wordpress.com/
+
+# How the entered text appears on the web page:
+
+https://karbytesforlifeblog.wordpress.com/
+
+Also, in order to literally display &​#8203; on a web page as visible text rather than as a zero-width space, place a zero-width space Unicode character (&​#8203;) between the '&' and the '#' in that plain-text character sequence.
+
+# What to enter into the web page source code editor:
+
+&&#8203;#8203;
+
+# How the entered text appears on the web page:
+
+&​#8203;
