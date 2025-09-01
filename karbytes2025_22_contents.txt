@@ -56,7 +56,7 @@ file_23: KARBYTES_BLOG_APPS-main_[undefined_day].zip // 492.97 megabytes
 
 file_24: KARBYTES_JOURNAL_2023_PART_3-main.zip // 56.48 megabytes
 
-file_25: KARLINA_OBJECT_extension_pack_49-main_[undefined_day].zip // 20.56 megabytes
+file_25: KARLINA_OBJECT_extension_pack_49-main_[undefined_day].zip // 20.57 megabytes
 
 file_26: KARBYTES_JOURNAL_2023_PART_2-main.zip // 51.70 megabytes
 
