@@ -1,0 +1,25 @@
+/**
+ * file: journal_karbytes_04september2025_p0.txt
+ * type: plain-text
+ * date: 04_SEPTEMBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+This journal entry is a follow-up to the blog post which is located at the following Uniform Resource Locator: 
+
+https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_04september2025/
+
+* * *
+
+Rather than make karbytes_kernel contain extension packs whose numbers are less than 49, I decided to only include extension packs whose numbers are 49 or higher in karbytes_kernel.
+
+Also, I decided to create a new "micro directory" to include in both karbytes_origins and in karbytes_kernel which contains all the tutorial web page HTML source code files, tutorial web page images, and linked source code files and program output files from the section of Karbytes For Life Blog dot WordPress dot Com named SOFTWARE_ENGINEERING_PORTFOLIO.
+
+The updated list of zip files which will (tentatively) be included in karbytes_kernel is available at the following Uniform Resource Locator:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/karbytes_kernel_05september2025_contents.txt
+
+The new "micro directory" containing all the files in SOFTWARE_ENGINEERING_PORTFOLIO is available at the following Uniform Resource Locator:
+
+https://karbytesforlifeblog.wordpress.com/raw_github_files_directory_KARBYTES_SOFTWARE_ENGINEERING_PORTFOLIO/
