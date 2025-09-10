@@ -200,7 +200,7 @@ file_95: karbytes_basement_4-main.zip // 24.09 megabytes
 
 file_96: KARLINA_OBJECT_extension_pack_29-main.zip // 182.61 megabytes
 
-file_97: karbytes_basement_44-main.zip // 8.75 megabytes
+file_97: karbytes_basement_44-main.zip // 9.17 megabytes
 
 file_98: KARBYTES_JOURNAL_2023_PART_28-main.zip // 76.58 megabytes
 
@@ -328,6 +328,6 @@ file_158: KARBYTES_JOURNAL_2023_PART_26-main.zip // 81.69 megabytes
 
 Total number of files: 159
 
-Total folder size: 17446.04 megabytes
+Total folder size: 17446.46 megabytes
 
 --------------------------------
