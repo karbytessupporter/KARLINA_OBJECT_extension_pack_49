@@ -36,7 +36,7 @@ M_DISC 1 of 1 data collection size: approximately 20 gigabytes
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-karbytes2025_22: // folder contains exactly 160 files (approximately 18373.15 megabytes total).
+karbytes2025_22: // folder contains exactly 160 files (approximately 18373.17 megabytes total).
 
     - zip_file_0: INSTAGRAM_KARBYTES_2024-main.zip // 332.7 megabytes
 
@@ -342,7 +342,7 @@ karbytes2025_22: // folder contains exactly 160 files (approximately 18373.15 me
 
     - zip_file_151: TEMPLATE_micro_directory-main.zip // 7.9 megabytes
 
-    - zip_file_152: karbytes_dark_websites-main.zip // 270.9 kilobytes; downloaded from a private karbytes-created GitHub repository; may contain some public karbytes content in the form of "unlisted web page" source code and associated media files (for the website named Karbytes For Life Blog dot WordPress dot Com). 
+    - zip_file_152: karbytes_dark_websites-main_[undefined_day].zip // 293.5 kilobytes; downloaded from a private karbytes-created GitHub repository; may contain some public karbytes content in the form of "unlisted web page" source code and associated media files (for the website named Karbytes For Life Blog dot WordPress dot Com). 
 
     - zip_file_153: KARLINA_OBJECT_APPS-main.zip // 24.0 megabytes; downloaded from a private karbytes-created GitHub repository; may contain some public karbytes content in the form of "unlisted web page" source code and associated media files (for the website named Karbytes For Life Blog dot WordPress dot Com). 
 
