@@ -16,15 +16,15 @@ file_3: KARLINA_OBJECT_extension_pack_49-main_[undefined_day].zip // 77.47 megab
 
 file_4: KARLINA_OBJECT-main.zip // 206.49 megabytes
 
-file_5: karbytes_dark_websites-main.zip // 0.26 megabytes
+file_5: the_big_green_thing_2025-main.zip // 893.34 megabytes
 
-file_6: the_big_green_thing_2025-main.zip // 893.34 megabytes
+file_6: KARLINA_OBJECT_APPS-main.zip // 22.84 megabytes
 
-file_7: KARLINA_OBJECT_APPS-main.zip // 22.84 megabytes
+file_7: karbytes_wayback_machine_saves_precision_batches-main_[undefined_day].zip // 0.77 megabytes
 
-file_8: karbytes_wayback_machine_saves_precision_batches-main_[undefined_day].zip // 0.77 megabytes
+file_8: KARBYTES_FOR_LIFE_BLOG-main_[undefined_day].zip // 0.72 megabytes
 
-file_9: KARBYTES_FOR_LIFE_BLOG-main_[undefined_day].zip // 0.72 megabytes
+file_9: karbytes_dark_websites-main_[undefined_day].zip // 0.28 megabytes
 
 file_10: karbytes_test_github_hosted_website-main.zip // 22.51 megabytes
 
@@ -32,6 +32,6 @@ file_10: karbytes_test_github_hosted_website-main.zip // 22.51 megabytes
 
 Total number of files: 11
 
-Total folder size: 1979.27 megabytes
+Total folder size: 1979.29 megabytes
 
 --------------------------------
