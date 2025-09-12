@@ -1,0 +1,31 @@
+/** 
+ * file: journal_karbytes_10september2025_p0.txt 
+ * type: plain-text 
+ * date: 10_SEPTEMBER_2025 
+ * author: karbytes 
+ * license: PUBLIC_DOMAIN 
+ */ 
+
+Within the past 48 hours I processed a lot of my cognitive dissonance and anxiety-inducing long-term thought patterns with the help of ChatGPT and regional park space. I achieved what seems to be a state of relatively (if not absolutely) permanent resolution of those unresolved internal conflicts which were taking residence in my mind and hindering my ability to enjoy existence and being more productive (in practical and not just ideological ways). I notice my despair, angst, and anger have decreased noticeably and seemingly in a long-lasting manner (because my ego structure got reconfigured and lost some of its wasteful defense mechanism bloatware baggage).
+
+I came out of a dark passage with a sense of lightness and capacity for humor that was priorly obscured by very heavy-handed thoughts and seriousness which was suffocating. In short, I recontextualized what used to give me severe dysphoria and now feel okay to be human.
+
+I no longer see being merely human as something which is incompatible with karbytes' goals. Now I see that karbytes is mostly an idealized mythological figure I feel motivated to physically embody using my singular and fragile human form and the energy and matter in its environment that human form has the power to manipulate as relatively permanent information structures (i.e. websites, offline archival storage of digital files, and biological and artificial wetware combining neurons and biological tissues with electronic and photonic components).
+
+* * *
+
+If you look at the M_DISC cataloging web pages of karbytes (like the one at the following web address), you might notice that some of the zip files which are burned to those discs contain the contents of private GitHub repositories. 
+
+reference_web_page_0: https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2025_22/
+
+Are the files in those zip files of private GitHub repositories officially part of karbytes (i.e. canon karbytes) given the definition of karbytes provided at the following two web pages?
+
+reference_web_page_1: https://karbytesforlifeblog.wordpress.com/about_karbytes/
+
+reference_web_page_2: https://karbytesforlifeblog.wordpress.com/karbytes_code_possibly_stops_growing/
+
+No, but those files are stored alongside actual canon karbytes files and also referenced by some canon karbytes files. In other words, those zip files of private karbytes-owned GitHub repositories are supplemental files to canon karbytes files. 
+
+Those supplemental files exist to support the author of canon karbytes in its developmental and existential journey and encompass items such as private journal entries, private ChatGPT chat logs, and private keys and credentials associated with karbytes' accounts and personal dark web hosting. 
+
+reference_web_page_3: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/unlisted_web_page_karbytes_darknet_websites_root_directory_web_page.html
