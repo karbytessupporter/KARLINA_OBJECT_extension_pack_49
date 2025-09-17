@@ -130,9 +130,13 @@ Do you also plan to spread the saves across different days/times (rather than do
 
 karbytes:
 
+[It should be noted that karbytes meant to say "more than a set number of times per day" in this message (in order to denote the fact that the WayBack Machine imposes a maximum daily save quota per Uniform Resource Locator (i.e. URL)). karbytes also failed to mention in this message that the WayBack Machine does not allow the same URL to be saved more than once per hour.]
+
 Of course! The WayBack Machine does not allow me to save the same URL more than a set number of times; typically 5 for HTML and 1 for images, videos, and source code files.
 
 ChatGPT:
+
+[It should be noted that plain-text files (i.e. files whose filename extension is .txt) and HTML source code files (i.e. files whose filename extension is .html) can typically be saved to the WayBack Machine the same number of times per day as a static web page.]
 
 Right — that’s the key limitation: the Wayback Machine enforces rate limits per URL per day depending on file type:
 
