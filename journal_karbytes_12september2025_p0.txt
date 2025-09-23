@@ -1,0 +1,27 @@
+/**
+ * file: journal_karbytes_12september2025_p0.txt
+ * type: plain-text
+ * date: 12_SEPTEMBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+If you look at the M_DISC cataloging web pages of karbytes (like the one at the following web address), you might notice that some of the zip files which are burned to those discs contain the contents of private (instead of just public) GitHub repositories.
+
+reference_web_page_0: https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2025_22/
+
+Are the files in those zip files of private GitHub repositories officially part of karbytes (i.e. canon karbytes) given the definition of karbytes provided at the following two web pages?
+
+reference_web_page_1: https://karbytesforlifeblog.wordpress.com/about_karbytes/
+
+reference_web_page_2: https://karbytesforlifeblog.wordpress.com/karbytes_code_possibly_stops_growing/
+
+No, but those files (in the private karbytes-owned GitHub repositories but not in the karbytes-owned public GitHub repositories) are stored alongside actual canon karbytes files and are also referenced (via hyperlinks) by some canon karbytes files. In other words, those zip files of private karbytes-owned GitHub repositories are supplemental files to canon karbytes files.
+
+Those supplemental files (in karbytes-owned private GitHub repositories) exist to support the author of canon karbytes in its developmental and existential journey and encompass items such as private journal entries, private ChatGPT chat logs, and private keys and credentials associated with karbytes’ accounts and personal dark web hosting.
+
+reference_web_page_3: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/unlisted_web_page_karbytes_darknet_websites_root_directory_web_page.html
+
+Some of those files in karbytes-owned private GitHub repositories are source code and media files to web pages of karbytes which are deliberately “hidden” yet still publicly accessible and possible to find by starting at the START page of a karbytes WordPress dot Com website and clicking on hyperlinks on pages of that website to eventually arrive at any of those hidden web pages (in a finite amount of hyperlink clicks which are not randomized)!
+
+reference_web_page_4: https://karbytesforlifeblog.wordpress.com/micro_directory_definition/
