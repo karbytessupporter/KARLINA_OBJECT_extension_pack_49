@@ -58,7 +58,7 @@ file_24: KARBYTES_SOFTWARE_ENGINEERING_PORTFOLIO-main_[undefined_day].zip // 255
 
 file_25: KARBYTES_JOURNAL_2023_PART_3-main.zip // 56.48 megabytes
 
-file_26: KARLINA_OBJECT_extension_pack_49-main_[undefined_day].zip // 82.96 megabytes
+file_26: KARLINA_OBJECT_extension_pack_49-main_[undefined_day].zip // 82.97 megabytes
 
 file_27: KARBYTES_JOURNAL_2023_PART_2-main.zip // 51.70 megabytes
 
@@ -174,7 +174,7 @@ file_82: KARLINA_OBJECT_extension_pack_4-main.zip // 332.34 megabytes
 
 file_83: INSTAGRAM_SCREENSHOTS_2022_KARBYTES_ANEW-main.zip // 211.70 megabytes
 
-file_84: karbytes_basement_45-main_[undefined_day].zip // 12.35 megabytes
+file_84: karbytes_basement_45-main_[undefined_day].zip // 12.37 megabytes
 
 file_85: karbytes_basement_18-main.zip // 34.01 megabytes
 
@@ -332,6 +332,6 @@ file_160: KARBYTES_JOURNAL_2023_PART_26-main.zip // 81.69 megabytes
 
 Total number of files: 161
 
-Total folder size: 18181.28 megabytes
+Total folder size: 18181.30 megabytes
 
 --------------------------------
