@@ -166,7 +166,7 @@ karbytes:
 
 [uploaded_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/unlisted_web_page_NATURE_28september2025.html]
 
-[uploaded_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/unlisted_web_page_NATURE.html]
+[uploaded_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/NATURE.html]
 
 I updated the NATURE web page. Here are the source code files to the latest version of that web page and the previous version.
 
