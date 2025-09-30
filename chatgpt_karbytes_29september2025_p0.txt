@@ -10,7 +10,7 @@ The following is a plain-text transcript of a conversation between karbytes and 
 
 https://karbytesforlifeblog.wordpress.com/NATURE_09july2025/
 
-(Later on in the conversation, karbytes updates the NATURE web page and shares the source code of the latest two versions of that web page with ChatGPT).
+(Later on in the conversation, karbytes updates the NATURE web page and shares the source code of the latest two versions of that web page with ChatGPT-5).
 
 * * *
 
