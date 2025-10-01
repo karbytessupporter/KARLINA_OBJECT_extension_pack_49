@@ -95,9 +95,9 @@ cat hg38_chunk_* > hg38.fa.gz
 
 [end bash]
 
-The resule of running that command was getting a 983.7 megabyte file named hg38.fa.gz.
+The result of running that command was getting a 983.7 megabyte file named hg38.fa.gz.
 
-I generated a check sum of each FASTA file to ensure that both files are identical using the following command on each file.
+I generated a checksum of each FASTA file to ensure that both files are identical using the following command on each file.
 
 [bash]
 
