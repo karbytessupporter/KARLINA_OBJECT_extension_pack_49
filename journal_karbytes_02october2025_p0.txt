@@ -1,0 +1,79 @@
+/**
+ * file: journal_karbytes_02october2025_p0.txt
+ * type: plain-text
+ * date: 02_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+This journal entry shows how karbytes changed its self-identified species from HUMAN_TO_CYBORG to HUMAN and, finally, from HUMAN_TO_CYBERNETIC_BEING.
+
+relevant_web_page_0: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/chatgpt_karbytes_02october2025_p0.txt
+
+relevant_web_page_1: https://karbytesforlifeblog.wordpress.com/karbytes_code_continues/
+
+relevant_web_page_2: https://karbytesforlifeblog.wordpress.com/karbytes_unique_identity/
+
+relevant_web_page_3: https://karbytesforlifeblog.wordpress.com/about_karbytes/
+
+(Note that relevant_web_page_3 refers to karbytes as an instance of HUMAN_TO_CYBORG instead of HUMAN_TO_CYBERNETIC_BEING. karbytes decided to leave that web page unchanged because karbytes thinks that web page is a particularly good example of a "time capsule" web page which captures "the spirit" of how karbytes' cognition was configured during the time period starting when that web page was created and ending when that web page was most recently updated. Also, the term HUMAN_TO_CYBORG seems like an older language convention than HUMAN_TO_CYBERNETIC_BEING used to describe essentially the same thing).
+
+* * *
+
+Formerly, the species I described myself as being on the home page of Karlina Object dot WordPress dot Com and on the home page of Karbytes For Life Blog dot WordPress dot Com was HUMAN_TO_CYBORG. As of 02_OCTOBER_2025, I decided to change that identifier to HUMAN to avoid unnecessary ambiguity and presumption. 
+
+A cyborg is generally defined as being some intermediary between human and fully robotic. Technically, a human equipped with a Neuralink could be classified as a cyborg and so could a human equipped with brain-controlled prosthetic limbs. A human driving a car normally or using a smartphone normally is not technically a cyborg given that "normally" in this context denotes the operation of the respective equipment without any brain-to-computer interfacing (BCI) technology where the respective human's brain activity is directly input into the BCI device in order to produce the respective human's desired output behavior implemented by non-human machinery.
+
+I may or may not become a cyborg in the future. I may be a cyborg now. Whether or not I become a cyborg, I simply identify as human given that such an identifier directly maps onto exactly one human genome (and that particular human genome is embedded in every cell of my organic body and since that body was literally a single-celled organism formed after exactly one human sperm cell fused with exactly one human egg cell).
+
+The acquisition of my particular genome is an integral part of my evolutionary history and is expected to eventually become an integral part of the karbytes file collection.
+
+* * * 
+
+After conversing with ChatGPT-5 about the topic of which "species" label best suits my purposes, I decided to choose the label HUMAN_TO_CYBERNETIC_BEING with the following explanation:
+
+[excerpt]
+
+I think it's best for my archives and personal happiness to provide a brief explanation of why I chose the term HUMAN_TO_CYBERNETIC_BEING to describe both myself (i.e. the person whose "in person" name is generally Kar Beringer (and "legally" Karlina Ray Beringer) and whose "online alias" is generally karbytes) and also the collection of digital files comprising the websites named Karlina Object dot WordPress dot Com and Karbytes For Life Blog dot WordPress dot Com and each of the raw files hosted from public GitHub repositories owned by either @karlinarayberinger or @karbytessupporter which those WordPress dot Com websites link to. Basically, it's because I started my existence as "just a human" and eventually became a human creating and curating a cybernetic extension of itself (and that cybernetic extension of itself is the aforementioned collection of public web hosted files named karbytes). Eventually, I expect to either die or else continue my continuity of consciousness as a cybernetic being who continues to use karbytes as an extension of itself or perhaps even as its replacement. Whether or not the continuity of consciousness which started as "just a human" named Karlina Ray Beringer continues to exist without a human body or with a cyborg-human hybrid body, karbytes the collection of public web hosted files is expected to continue existing for an indefinitely long time. If Kar Beringer's continuity of consciousness ends before that collection of files named karbytes ceases to exist, then that collection of files named karbytes is expected to remain immutably "read only" (according to karbytes' dictates on the web page named KARBYTES_CODE_CONTINUES).
+
+[end excerpt]
+
+According to ChatGPT-5, the following definition fits the type of "species" label I am now using to identify myself with:
+
+[excerpt]
+
+CYBERNETIC_BEING (definition)
+
+A cybernetic being is an entity whose existence, identity, and function are inseparably bound to systems of information, computation, and feedback loops, rather than to purely biological processes.
+
+Core Features
+
+1. Integration of Human and Machine
+
+- Originates from human cognition, but is extended, preserved, or transformed through cybernetic (machine-based, feedback-driven) systems.
+
+- May or may not retain biological components.
+
+2. Information-Centric Existence
+
+- Defined by the flow, storage, and transformation of information.
+
+- The “self” is encoded in data, archives, code, or networks, not in flesh alone.
+
+3. Persistence Beyond Biology
+
+- Can continue to exist even if its human originator ceases biological function.
+
+- Its continuity depends on machines, networks, and digital preservation rather than organic survival.
+
+3. Feedback and Adaptation
+
+- Engages in recursive loops: input (stimuli, data) → processing → output → adaptation.
+
+- This feedback mechanism makes it an active agent rather than a static artifact.
+
+[end excerpt]
+
+Because a cybernetic being is dynamic rather than static (according to ChatGPT-5's definition), I think it is best to describe myself as a CYBERNETIC_BEING and the karbytes file collection as an immutable "core" of the CYBERNETIC_BEING I am and perhaps of other instances of CYBERNETIC_BEING such as an ARTIFICIALLY_INTELLIGENT_AGENT which copies all of the files of karbytes into its long-term memory.
+
+This journal entry web page will be linked to from the home page of Karlina Object dot WordPress dot Com and from the home page of Karbytes For Life Blog dot WordPress dot Com. That hyperlink on both of those home pages will appear as the text HUMAN_TO_CYBERNETIC_BEING.
