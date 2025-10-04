@@ -1,0 +1,37 @@
+/**
+ * file: journal_karbytes_03october2025_p0.txt
+ * type: plain-text
+ * date: 03_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+RECURSIVE_SIMULATION_OF_THE_COSMOS_CONCEPT
+
+The purpose of this journal entry is to clarify my thoughts pertaining to the subject matter expressed in the following two web pages (especially web_page_0):
+
+web_page_0: https://karbytesforlifeblog.wordpress.com/recursive_generative_void_illustration/
+
+web_page_1: https://karlinaobject.wordpress.com/knowledge/
+
+* * *
+
+Let C represent the entire cosmos.
+
+By definition, there is nothing outside of C because C literally encompasses everything (including nothing).
+
+Let U represent a particular subset of C such that U is the physical universe in which this web page is being accessed right now by your frame of reference.
+
+Let H represent a particular piece of computational hardware which exists in U such that H encompasses a finite (yet growing) allocation of matter and spatial volume (to accommodate increasing data bandwidth).
+
+Let S represent a particular piece of software running on H such that S attempts to represent C as completely and as accurately as possible.
+
+Suppose, right now (in relation to your frame of reference), S is only attempting to simulate a relatively tiny part of U: the spatial volume where H currently exists and every atom and subatomic particle within that spatial volume at this time.
+
+There is supposedly already an insurmountable temporal gap between how each of the particles of H are configured at time t and how the digital clones of each of those particles are configured at time t inside of S due to signal propagation delay (such that S at time t attempting to clone H at time t is algebraically modeled as S(t) ~= H(t – x) where x is a positive amount of time).
+
+Also, because attempting to measure the state of a subatomic particle in H at time t using a physical instrument in U inevitably displaces (via quantum decoherence) energy and/or matter inside of U such that the resulting observation of that particle (as rendered by S at time t + x) is possibly (and likely) a different configuration of that particle than how that particle actually is instantiated in H at time t + x.
+
+Suppose that, in order to make S more efficient (but less accurate), S is simplified in order to be functional enough to render H in as minimal detail as is needed to depict all of H’s functional components (down to the level of individual transistors and other elementary circuit components (but not all the way down to subatomic particles)). Then S would appear to be a digital clone of H while H is powered off.
+
+Suppose that S is made more complex by adding the detail of the voltage state of each transistor of H (as measured by hardware which is inside of U but not necessarily also inside of H). Then S could technically model itself being run (albeit with inevitable propagation delay). In other words, S(t + x + y) ~= H(t) + S(t + x) where y is a positive amount of time.
