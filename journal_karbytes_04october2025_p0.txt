@@ -1,0 +1,63 @@
+/**
+ * file: journal_karbytes_04october2025_p0.txt
+ * type: plain-text
+ * date: 04_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+RECURSIVE_SIMULATION_OF_THE_COSMOS_CONCEPT_REVISITED
+
+In yesterday's journal entry (which is located at the following Resource Locator), I outlined a conceptual model of how a computer could simulate itself simulating itself in a recursive manner without explicitly specifying any limitations to that simulation's recursive depth. In today's journal entry, my intention is to fill in such details.
+
+https://karbytesforlifeblog.wordpress.com/recursive_simulation_of_the_cosmos_concept/
+
+* * *
+
+Recall from yesterday's journal entry the following equation (which describes a recursive self simulation whose recursive depth is two simulation layers):
+
+S(t + x + y) ~= H(t) + S(t + x)
+
+Note that H could be described as a simulation layer, but for the sake of being consistent throughout this journal entry, H is not being counted as a simulation layer. Instead, only S is being counted as one or more simulation layers.
+
+Note also that, while t, x, and y are each positive amounts of time, t, x, and y are not necessarily the same amounts of time. What is implied as that t elapsed before x and x elapsed before y. Hence, the aforementioned equation implicitly denotes three different layers of simulation each occurring at different times:
+
+Firstly, S(t + x) ~= H(t) occurred (at the point in U's timeline labeled t + x). 
+
+x represents the processing time (including signal propagation delay) needed to generate S(t + x).
+
+S(t + x) is an approximate (and simplified) digital replica of H(t).
+
+H(t) is the how the physical hardware running S is configured at the point in U's timeline labeled t.
+
+Secondly, S(t + x + y) ~= S(t + x) ~= H(t) occurred (at the point in U's timeline labeled t + x + y).
+
+y represents the processing time (including signal propagation delay) needed to generate S(t + x + y).
+
+S(t + x + y) is a nearly identical replica of S(t + x).
+
+Implicitly, S(t + x + y) is an approximate (and simplified) digital replica of H(t) while H(t) is rendering S(t + x) (which means that the aforementioned equation is contradicting itself unless that expression  is interpreted as a computational assignment operation instead of as an algebraic equivalence statement).
+
+Here is a more accurate depiction of that expression:
+
+H(t + x + y).renders := S(t + x). // This assignment operation happens at t + x + y of U's timeline.
+
+H(t + x).renders := S(t). // This assignment operation happens at t + x of U's timeline.
+
+The above two statements imply that S is lagging behind H in terms of which point in U's timeline either S or H is denoted as representing. 
+
+S(t + x).renders := S(t). // This assignment operation happens at t + x of U's timeline.
+
+S(t + x + y).renders := S(t + x). // This assignment operation happens at t + x + y of U's timeline.
+
+S(t) could be thought of as the base case of the recursive simulation running on H due to the fact that S(t) represents H before H was running S. In other words, S(t) is an abstract representation of H before H was powered on (or perhaps S(t) is an immutable digital replica of H before t occurred in U's timeline and while H was fully built and ready to be powered on and to run S).
+
+S(t + x) could be thought of as the first "live" (and indirect) recording of H (and that recording was generated while H was powered on and running the same instance of S as the instance which encompasses S(t + x)).
+
+S(t + x) is a direct recording of S(t) and, hence, S(t + x) is implicitly also an indirect recording of H when H was supposedly rendering S(t).
+
+S(t + x + y) could be thought of as the second "live" (and indirect) recording of H (and that recording was generated while H was rendering S(t + x) and after H supposedly rendered S(t)).
+
+S(t + x + y) is a direct recording of S(t + x) and, hence, S(t + x + y) is implicitly also an indirect recording of H when H was supposedly rendering S(t + x).
+
+Pragmatically speaking, there could be indefinitely many layers to the recursive simulation S but physics would ultimately determine the "hard limit" to how many of such layers could be generated and simultaneously stored in H's memory. It is assumed that H could could only grow large enough to simulate additional layers of S until H uses up all the available physical resources (i.e. matter and energy) inside of U. Then S would cease to grow and would hence become a frozen snapshot of S's evolution from S(t) to S(n) where n is the point in U's timeline where H runs out of computational resources to augment S with additional simulation layers.

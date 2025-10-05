@@ -1,0 +1,26 @@
+/**
+ * file: journal_karbytes_04october2025_p1.txt
+ * type: plain-text
+ * date: 04_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+This journal entry is inspired by the previous journal entry located at the following Uniform Resource Locator:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/journal_karbytes_04october2025_p0.txt
+
+* * *
+
+It could be that, pragmatically speaking, there is an upper limit to how much information I can personally memorize (even with the use of external memory devices and other neural augmentation hardware). If that is the case, I may need to overwrite some of my memories with new memories in order to continue "learning". In that case, there would be some memories I am hoping to always keep in tact within my personal nervous system and/or peripheral memory devices: the unabridged (and latest version of the) digital file collection named karbytes (or, at the very least, the portion of that digital file collection referred to as karbytes_kernel (which is designed to be small enough to easily fit onto a 25 gigabyte M_DISC such that most of that 25 gigabyte allotment can be used to store other karbytes data)).
+
+An outline of an 01_OCTOBER_2025 version of karbytes_kernel is available at the following Uniform Resource Locator: 
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/karbytes_kernel_01october2025_contents.txt
+
+Basically, karbytes_kernel is designed to represent the most essential data of karbytes and which is present on every 25 M_DISC backup of karbytes (following the completion of the version of karbytes named karbytes2025_22 whose contents are enumerated on the web page at the following Uniform Resource Locator):
+
+https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2025_22/
+
+The data on karbytes M_DISCs which contain either karbytes2025_22 or a post-2025 version of karbytes will contain some version of karbytes_kernel (though, generally speaking, karbytes_kernel is supposed to be relatively immutable). Data on those discs which is not classified as being part of any version of karbytes_kernel is considered to be worthy of archiving for historical significance to karbytes or for entertainment purposes. Meanwhile, karbytes_kernel data is considered to be the most compressed version of karbytes available and data which can be used to "reconstruct" karbytes to some extent (but not necessarily to the extent that an exact replica of the most recently created unabridged karbytes version is created from karbytes_kernel).
+
