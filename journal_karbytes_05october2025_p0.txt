@@ -1,0 +1,61 @@
+/**
+ * file: journal_karbytes_05october2025_p0.txt
+ * type: plain-text
+ * date: 06_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following list of karbytes "micro directory" names denotes each set of sub-index URLs which karbytes saved every file URL of successfully to the WayBack Machine (using the Save Page Now web UI with the "save outlinks" option selected) during the time interval starting at 5:01PM Pacific Standard Time on 05_OCTOBER_2025 and ending at 4:59PM Pacific Standard Time on 06_OCTOBER_2025.
+
+Note that, if a particular WayBack Machine Save Page Now save operation for a particular file URL or a particular sub-index URL failed upon the first attempt, karbytes repeatedly spammed the WayBack Machine with that same Save Page Now operation until the operation was successful.
+
+Note that sometimes the WayBack Machine removes or fails to immediately display particular URL snapshots. Hence, karbytes' goal is to save each file URL of karbytes to WayBack as many times as possible during karbytes' lifespan (and ideally each (final draft version of each) file of karbytes will be saved to the WayBack Machine at least one hundred times).
+
+A comprehensive list of all sub-index web pages pertaining to karbytes is available at the following Uniform Resource Locator (URL) and that index page contains a link to every raw GitHub-hosted file and WordPress dot Com web page of karbytes:
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches/
+
+The WayBack Machine's Save Page Now Web User Interface (UI) is available at the following URL: 
+
+https://web.archive.org/save
+
+A comprehensive overview of what constitutes the public web-hosted file collection named karbytes is available at the following URL:
+
+https://karbytesforlifeblog.wordpress.com/karbytes_code_possibly_stops_growing/
+
+* * *
+
+raw_github_files_directory_KARBYTES_FOR_LIFE_BLOG
+
+raw_github_files_directory_KARLINA_OBJECT_extension_pack_49
+
+raw_github_files_directory_KARLINA_OBJECT
+
+SOFTWARE_ENGINEERING_PORTFOLIO
+
+raw_github_files_directory_karbytes_test_github_hosted_website
+
+raw_github_files_directory_KARBYTES_BLOG_APPS_github_hosted_website
+
+raw_github_files_directory_the_big_green_thing
+
+raw_github_files_directory_karbytes_23AndMe_Ancestry_Data
+
+raw_github_files_directory_reference_human_genome_fasta_hg38
+
+raw_github_files_directory_KARBYTES_SOFTWARE_ENGINEERING_PORTFOLIO
+
+karbytessupporter_development_space_github_repository_raw_file_urls_list_(for_wayback_machine_saves).html
+
+KARBYTES_CODE_CONTINUES
+
+raw_github_files_directory_TEMPLATE_micro_directory
+
+raw_github_files_directory_RAW_GITHUB_FILES_MACRO_DIRECTORY_first_75_micro_directories
+
+raw_github_files_directory_KARLINA_OBJECT_summer_2023_starter_pack
+
+raw_github_files_directory_KARLINA_OBJECT_autumn_2023_starter_pack
+
+raw_github_files_directory_KARLINA_OBJECT_winter_2023_starter_pack
