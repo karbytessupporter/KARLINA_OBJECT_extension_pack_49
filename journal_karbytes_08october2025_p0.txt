@@ -1,7 +1,7 @@
 /**
  * file: journal_karbytes_08october2025_p0.txt
  * type: plain-text
- * date: 08_OCTOBER_2025
+ * date: 09_OCTOBER_2025
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pa
 
 - dark_web_server: A Ubuntu laptop computer running Tor and Apache services in order to host karbytes' dark websites. That laptop stays on 24 hour per day, 7 days per week except for when karbytes is installing some types of software updates on it or transporting the laptop from one location to another. While that laptop is on and not undergoing server maintenance/transportation, it is supposed to always be (a) connected to a reliable Wi-Fi network, (b) running the Tor and Apache services configured to host karbytes' dark websites (which are tied to exactly two distinct top-level .onion domains), and (c) playing the following sound file on repeat using karbytes' dark web version of the SOUND_TRACK_LOOPER_THREE web application to indicate that the server is on and associated with karbytes' dark websites: amplifier_original_mix_(hardtrance_1995)_by_macrocosm_downloaded_by_karbytes_26march2025.mp3.
 
-- working_laptop: A Ubuntu laptop computer installed with Sublime (for editing plain-text and source code files), Firefox (for browsing the light web), Chromium (for browsing the light web), Tor (for browsing the dark web), VLC Media Player (for playing video files), Brasero (for burning M_DISCs), Cheese (for taking still images and videos via the laptop camera), and OBS Studio (for video recording computer sceen activity).
+- working_laptop: A Ubuntu laptop computer installed with Sublime (for editing plain-text and source code files), Firefox (for browsing the light web), Chromium (for browsing the light web), Tor (for browsing the dark web), VLC Media Player (for playing video files), Brasero (for burning M_DISCs), Cheese (for taking still images and videos via the laptop camera), and OBS Studio (for video recording computer screen activity).
 
 - mdisc_burner: An external Blu-Ray disc reader/writer with M_DISC compatibility.
 
