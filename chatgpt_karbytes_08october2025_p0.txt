@@ -1769,9 +1769,9 @@ It’s safer, cleaner, and less error-prone — perfect for creating a stable in
 
 ✅ Summary
 
-Feature                        balenaEtcher (GUI)	             dd (CLI)
-Ease of use                    🟢 Very easy	                   🔴 Requires care
-Safety against wrong drive	   🟢 Built-in checks	             🔴 None
+Feature                        balenaEtcher (GUI)              dd (CLI)
+Ease of use                    🟢 Very easy                    🔴 Requires care
+Safety against wrong drive     🟢 Built-in checks              🔴 None
 Verification                   🟢 Automatic                    ⚫ Manual
 Works headless                 🔴 No                           🟢 Yes
 Speed                          ⚫ Medium                       🟢 Fast
