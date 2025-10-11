@@ -1,0 +1,188 @@
+/**
+ * file: journal_karbytes_10october2025_p0.txt
+ * type: plain-text
+ * date: 10_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+KARBYTES_SYSTEM_SETUP_GUIDE_2025
+
+The purpose of this journal entry is to provide succinct documentation on how to install software applications on karbytes' laptop computers immediately after installing a popular and recently released version of the Linux operating system (using a bootable USB flash drive created with a flashing program which formatted the USB flash drive with the respective Linux digital image file (.iso file) and selecting the option to erase the laptop's entire hard drive before installing the new operating system).
+
+This journal entry is written especially for Kar Beringer (i.e. the original author of karbytes (and who also named itself karbytes)) but any person is invited to follow along with Kar Beringer in this journal entry in setting up a laptop personalized in the style of karbytes. 
+
+This journal entry is a follow-up and companion to the web page at the following Uniform Resource Locator (URL):
+
+https://karbytesforlifeblog.wordpress.com/journal_karbytes_09october2025/
+
+* * *
+
+STEP_0: Obtain the latest version of karbytes.
+
+karbytes is an open source and public domain collection of web hosted files which encode the mind of Kar Beringer in a succinct and Kar Beringer approved manner. 
+
+A philosophical overview of karbytes is available at the following URL:
+
+https://karbytesforlifeblog.wordpress.com/about_karbytes/
+
+Copy the latest version of karbytes onto the laptop (and/or onto an external hard drive) from either (a) the latest karbytes M_DISC backup (if you are Kar Beringer) or (b) the latest version of the complete karbytes M_DISC catalog by downloading each of the .zip files listed as hyperlinks on that web page.
+
+As of 10_OCTOBER_2025, the latest version of the complete karbytes M_DISC catalog is available at the following URL:
+
+https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2025_22/
+
+Note that there are some "Easter egg" web pages and image files within karbytes which are not included in any of the public GitHub repositories listed in the complete karbytes M_DISC catalog. To get those "Easter egg" files, either download the source code and embedded image files directly from the "Easter egg" web pages themselves (or by finding the exact HTML source code file and/or image file comprising the respective "Easter egg" web page in the master directory leading to every web page of karbytes at the following URL): 
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches/
+
+* * *
+
+STEP_1: Update the Linux operating system with latest available system updates.
+
+karbytes' preferred operating system is Linux (and the Ubuntu distribution in particular) because Linux is open source (i.e. free for anyone to download and make their own modified versions of) rather than proprietary (i.e. not open source and requiring payment for some finite number of downloads).
+
+In the Unix command line interface, type the following commands to ensure that the Linux packages and drivers are current:
+
+sudo apt update && sudo apt full-upgrade -y
+sudo reboot
+
+Generally, karbytes pins the Terminal (Unix command line) application to its Desktop bar.
+
+* * *
+
+STEP_2: Install the Brasero optical disc writing application.
+
+karbytes uses the open source disc writing program named Brasero to create karbytes M_DISCs.
+
+In the Unix command line interface, type the following commands to download and install the Brasero application:
+
+# 1. Update your package list
+sudo apt update
+
+# 2. Install Brasero
+sudo apt install brasero -y
+
+To open Brasero from the Unix command line, enter the following command:
+
+brasero
+
+(The Brasero application can also be opened via the graphical user interface in the applications menu alongside other consumer-grade software applications. Click on the Ubuntu logo button which leads to a Show Apps panel).
+
+* * *
+
+STEP_3: Install the Cheese web camera application.
+
+karbytes uses the open source web camera application named Cheese to take quick selfies (in the form of still images and videos) from the camera and microphone built into karbytes' laptop.
+
+In the Unix command line interface, type the following commands to download and install the Cheese application:
+
+# 1. Update your package list
+sudo apt update
+
+# 2. Install Cheese
+sudo apt install cheese -y
+
+To open Cheese from the Unix command line, enter the following command:
+
+cheese
+
+(The Cheese application can also be opened via the graphical user interface in the applications menu alongside other consumer-grade software applications. Click on the Ubuntu logo button which leads to a Show Apps panel).
+
+* * *
+
+STEP_4: Install the OBS Studio (Open Broadcaster Software) application.
+
+karbytes uses the open source screencast application named OBS Studio to make direct video recordings of its computer screen activity (with or without sound from microphone input or from the system internally).
+
+In the Unix command line interface, type the following commands to download and install the OBS Studio application:
+
+# 1. Update your system
+sudo apt update && sudo apt upgrade -y
+
+# 2. Add the official OBS Project PPA
+sudo add-apt-repository ppa:obsproject/obs-studio -y
+
+# 3. Refresh package lists
+sudo apt update
+
+# 4. Install OBS Studio
+sudo apt install obs-studio -y
+
+To open OBS Studio from the Unix command line, enter the following command:
+
+obs
+
+(The OBS Studio application can also be opened via the graphical user interface in the applications menu alongside other consumer-grade software applications. Click on the Ubuntu logo button which leads to a Show Apps panel).
+
+* * *
+
+STEP_5: Install the TOR Browser (The Onion Router Browser) application.
+
+karbytes uses the open source dark web browser application named Tor Browser to browse the dark web (and surface) web with maximal anonymity and especially to access karbytes' own dark web server hosted .onion pages.
+
+In the Unix command line interface, type the following commands to download and install the Tor Browser application:
+
+# 1. Add the Tor Project repository
+sudo add-apt-repository ppa:micahflee/ppa -y
+
+# 2. Update package lists
+sudo apt update
+
+# 3. Install the launcher
+sudo apt install torbrowser-launcher -y
+
+To open Tor from the Unix command line, enter the following command:
+
+torbrowser-launcher
+
+(The Tor Browser application can also be opened via the graphical user interface in the applications menu alongside other consumer-grade software applications. Click on the Ubuntu logo button which leads to a Show Apps panel).
+
+Generally, karbytes pins the Tor Browser application to its Desktop bar.
+
+* * *
+
+STEP_6: Install the Chromium surface web broswer application. 
+
+karbytes uses Chromium (an open source version of Google Chrome) to browse the surface web (as an alternative to using the Firefox browser which comes pre-installed with Ubuntu).
+
+Open the App Center application (which is initially pinned to the Desktop bar in Ubuntu) and enter the following search term in the "Search for apps" field:
+
+Chromium
+
+Click on the relevant result which shows up in the search results and then click the "Install" button to install the software application.
+
+The Chromium application can be found in the App Center menu. 
+
+Generally, karbytes pins the Chromium application to its Desktop bar.
+
+Generally, karbytes bookmarks the following three web pages in both the Chromium web browser and in the Firefox web browser:
+
+https://karbytesforlifeblog.wordpress.com/
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches/
+
+https://web.archive.org/save
+
+* * *
+
+STEP_7: Install the Sublime Text Editor application. 
+
+karbytes uses the open source text editor named Sublime to create and edit source code and plain-text files.
+
+Open the App Center application (which is initially pinned to the Desktop bar in Ubuntu) and enter the following search term in the "Search for apps" field:
+
+Sublime
+
+Click on the relevant result which shows up in the search results and then click the "Install" button to install the software application.
+
+The Sublime application can be found in the App Center menu. 
+
+Generally, karbytes pins the Sublime application to its Desktop bar.
+
+* * *
+
+Thank you for reading the 10_OCTOBER_2025 edition of KARBYTES_SYSTEM_SETUP_GUIDE. There may or may not be future versions of this guide in karbytes. In any case, the URL for this version of this guide is as follows:
+
+https://karbytesforlifeblog.wordpress.com/karbytes_system_setup_guide_2025
+

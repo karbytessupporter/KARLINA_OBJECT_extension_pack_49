@@ -1,0 +1,44 @@
+/**
+ * file: journal_karbytes_10october2025_p1.txt
+ * type: plain-text
+ * date: 10_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+karbytes acknowledges that the way it configured the index.html page of the website at the following URL makes it such that karbytes cannot add any new "featured pages" on either START_PAGE of the website named Karlina Object dot WordPress dot Com or the START_PAGE of the website named Karbytes For Life Blog dot WordPress dot Com:
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches/
+
+For that reason, karbytes may create an additional section of that indexing website (whose root directory is located at the aforementioned URL) which enables either one of those two WordPress dot Com websites to expand the list of "featured pages" featured on the respective START_PAGE (i.e. home page (i.e. root directory)) for some indefinite number of additional files.
+
+An example of what a flexible section of the karbytes_wayback_machine_saves_precision_batches website looks like is the section of that website labeled raw_github_files_directory_KARBYTES_SOFTWARE_ENGINEERING_PORTFOLIO (which is pertains to the directory located at the following URL):
+
+https://karbytessupporter.github.io/karbytes_wayback_machine_saves_precision_batches/sub-index_page_E.html
+
+If karbytes runs out of letters of the English alphabet to use as indexing values for those flexible directories, karbytes will start incrementing those flexible directory indexes in the following manner:
+
+// English alphabet letter 1 of 26
+sub-index_page_A 
+
+// English alphabet letter 2 of 26
+sub-index_page_B
+
+[...]
+
+// English alphabet letter 25 of 26
+sub-index_page_Y
+
+// English alphabet letter 26 of 26
+sub-index_page_Z
+
+// karbytes' new weird indexing convention (which would be English alphabet letter 27 of 26)
+sub-index_page_Z1
+
+// karbytes' new weird indexing convention (which would be English alphabet letter 28 of 26)
+sub-index_page_Z2
+
+// karbytes' new weird indexing convention (which would be English alphabet letter 29 of 26)
+sub-index_page_Z3
+
+karbytes plans to leave Karlina Object dot WordPress dot Com unchanged but plans to keep expanding Karbytes For Life Blog dot WordPress dot Com. Hence, it makes sense for karbytes to make a flexible directory to augment the inflexible “directory” (or, more literally, a set-length of finite-length sub-index pages (namely, sub-index_page_634.html and sub-index_page_635.html)) named raw_github_files_directory_KARBYTES_FOR_LIFE_BLOG with a flexible directory named something like raw_github_files_directory_KARBYTES_FOR_LIFE_BLOG-EXTENDED (and perhaps to change the name of the inflexible “directory” to raw_github_files_directory_KARBYTES_FOR_LIFE_BLOG-ABRIDGED).
