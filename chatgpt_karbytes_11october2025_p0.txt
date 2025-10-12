@@ -1,3 +1,17 @@
+/**
+ * file: chatgpt_karbytes_11october2025_p0.txt
+ * type: plain-text
+ * date: 11_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a plain-text transcript of a conversation between karbytes and ChatGPT-5 which took place between 11:59PM Pacific Standard Time on 10_OCTOBER_2025 and 11:59PM Pacific Standard Time on 11_OCTOBER_2025. The conversation pertains to karbytes' plans to use its smartphone (typically an Android Galaxy A03s or something similar in the Samsung Android line) to keep its dark websites perpetually online in case karbytes relocates to a residence where karbytes does not have adequate Wi-Fi access. karbytes would use a phone and associated phone number solely for the purpose of keeping karbytes' dark web server perpetually connected to the World Wide Web (and either keep the phone and server laptop plugged into an electrical outlet in the wall for "unlimited power" or else keep those devices plugged into powerbanks which karbytes swaps routinely and as often as necessary to keep both devices online for as much time as possible).
+
+Bottom Line: If karbytes' .onion web pages are accessible from client computers using the Tor Browser, then it can generally be assumed that karbytes' dark web server has a home (and, by extension, so does karbytes).
+
+* * *
+
 karbytes:
 
 [uploaded_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/unlisted_web_page_onion_web_page_availability_logger.html]
