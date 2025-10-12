@@ -6,15 +6,15 @@
  * license: PUBLIC_DOMAIN
  */
 
-The following is a plain-text transcript of a conversation between karbytes and ChatGPT-5 which took place between 11:59PM Pacific Standard Time on 10_OCTOBER_2025 and 11:59PM Pacific Standard Time on 11_OCTOBER_2025. The conversation pertains to karbytes' plans to use its smartphone (typically an Android Galaxy A03s or something similar in the Samsung Android line) to keep its dark websites perpetually online in case karbytes relocates to a residence where karbytes does not have adequate Wi-Fi access. karbytes would use a phone and associated phone number (which is ~$30 minumum per month to keep in service and ~$10 per every additional gigabyte of mobile Internet data used beyond what the monthly phone plan includes) solely for the purpose of keeping karbytes' dark web server perpetually connected to the World Wide Web by using the phone to establish a Wi-Fi hotspot (and either keep the phone and server laptop plugged into an electrical outlet in the wall for "unlimited power" or else keep those devices plugged into powerbanks which karbytes swaps routinely and as often as necessary to keep both the phone and the server laptop online for as much time as possible).
+The following is a plain-text transcript of a conversation between karbytes and ChatGPT-5 which took place between 11:59PM Pacific Standard Time on 10_OCTOBER_2025 and 11:59PM Pacific Standard Time on 11_OCTOBER_2025. The conversation pertains to karbytes’ plans to use its smartphone (typically an Android Galaxy A03s or something similar in the Samsung Android line) to keep its dark websites perpetually online in case karbytes relocates to a residence where karbytes does not have adequate Wi-Fi access. karbytes would use a phone and associated phone number (which is ~$30 minumum per month to keep in service and ~$10 per every additional gigabyte of mobile Internet data used beyond what the monthly phone plan includes) solely for the purpose of keeping karbytes’ dark web server perpetually connected to the World Wide Web by using the phone to establish a Wi-Fi hotspot via wirelessly tethering karbytes’ dark web server laptop to karbytes’ phone-as-modem (and either keep the phone and server laptop plugged into an electrical outlet in the wall for “unlimited power” or else keep those devices plugged into powerbanks which karbytes swaps routinely and as often as necessary to keep both the phone and the server laptop online for as much time as possible).
 
-- documentation_web_page: https://karbytesforlifeblog.wordpress.com/onion_web_page_availability_logger/
+– documentation_web_page: https://karbytesforlifeblog.wordpress.com/onion_web_page_availability_logger/
 
-- karbytes_.onion_web_page_A: http://ijnqld5dkly6cpvds37nap7n7n5f2tjc4e623b3x7dkzh563wpj6v4yd.onion/
+– karbytes_.onion_web_page_A: http://ijnqld5dkly6cpvds37nap7n7n5f2tjc4e623b3x7dkzh563wpj6v4yd.onion/
 
-- karbytes_.onion_web_page_B: http://qkbrwfubnh4knc6kkhx6uepccavpwezdf2al7w2quepe3qociegsi3yd.onion/
+– karbytes_.onion_web_page_B: http://qkbrwfubnh4knc6kkhx6uepccavpwezdf2al7w2quepe3qociegsi3yd.onion/
 
-Bottom Line: If karbytes' .onion web pages are accessible from client computers using the Tor Browser, then it can generally be assumed that karbytes' dark web server has a home (and, by extension, so does karbytes).
+Bottom Line: If karbytes’ .onion web pages are accessible from client computers using the Tor Browser, then it can generally be assumed that karbytes’ dark web server has a home (and, by extension, so does karbytes).
 
 * * *
 
@@ -35,7 +35,6 @@ Inside the file, there’s a feature explicitly designed for mobile devices (lik
 function keep_session_active() {
   startPlayingSilentSoundTracks();
 }
-
 When you tap the “keep_session_active()” button, it starts playing looping audio tracks in the browser.
 
 Because Android treats media playback as “active use,” this prevents the browser tab (and possibly your hotspot) from being put to sleep due to inactivity.
@@ -113,7 +112,6 @@ Enable USB debugging
 On your computer (Linux, macOS, or Windows with platform-tools installed), open a terminal and check device connection:
 
 adb devices
-
 If prompted, tap “Allow” on your Android screen to authorize.
 
 🚫 Step 3: Disable Hotspot Auto-Turnoff
@@ -121,15 +119,12 @@ If prompted, tap “Allow” on your Android screen to authorize.
 Run this command to set hotspot timeout to 0 (never auto-disable):
 
 adb shell settings put global tether_offload_disabled 1
-
 To add additional insurance, also disable Wi-Fi tether power saving:
 
 adb shell settings put global wifi_ap_pwr_save 0
-
 And if your Android version supports hotspot timeout override:
 
 adb shell settings put global wifi_hotspot_auto_off 0
-
 ✅ For many devices, just one of those three is enough — but applying all three gives the best persistence.
 
 🔁 To Revert Back to Default
@@ -139,13 +134,11 @@ If you ever want Android to manage the hotspot normally again, run:
 adb shell settings delete global tether_offload_disabled
 adb shell settings delete global wifi_ap_pwr_save
 adb shell settings delete global wifi_hotspot_auto_off
-
 💡 Optional: Keep the Screen Awake Permanently
 
 To prevent screen sleep from interfering, you can toggle this via ADB too:
 
 adb shell settings put global stay_on_while_plugged_in 3
-
 (This makes the screen stay on whenever charging via USB or AC — good for continuous hotspot use while plugged in.)
 
 🎯 Result
@@ -177,10 +170,9 @@ Motorola / Nokia / Android One                                 ~5–10 minutes  
 Xiaomi / Redmi / MIUI                                          Around 10 minutes                                May allow extending timeout in hotspot settings.
 Huawei / Honor / EMUI                                          10 minutes or less                               Power-saving mode can make it even shorter.
 Carrier-branded phones (T-Mobile, Verizon variants, etc.)      As little as 2–3 minutes of no data activity     Carriers enforce aggressive shutdown to save data usage.
-
 🎯 Important Details
 
-The hotspot doesn't just look for connected devices — it checks for active data transfer.
+The hotspot doesn’t just look for connected devices — it checks for active data transfer.
 → If something is connected but idle, Android still counts that as inactivity and may shut it off.
 
 Some devices display “Turning off hotspot due to inactivity” before cutting connection.
