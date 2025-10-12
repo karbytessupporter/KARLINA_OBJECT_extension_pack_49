@@ -1,7 +1,7 @@
 /**
  * file: journal_karbytes_10october2025_p0.txt
  * type: plain-text
- * date: 10_OCTOBER_2025
+ * date: 11_OCTOBER_2025
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
@@ -117,7 +117,24 @@ obs
 
 * * *
 
-STEP_5: Install the TOR Browser (The Onion Router Browser) application.
+STEP_5: Install the VLC Media Player (VideoLAN Client) application. 
+
+karbytes uses the open source video and sound file player named VLC Media Player to play MP4 and MP3 files (especially with for the purpose of playing a scenic MP4 short video on loop in order to prevent the computer from going to sleep due to a lack of user inputs).
+
+In the Unix command line interface, type the following commands to download and install the VLC Media Player application:
+
+sudo apt update
+sudo apt install vlc
+
+To open VLC Media Player from the Unix command line, enter the following command:
+
+vlc
+
+(The VLC Media Player application can also be opened via the graphical user interface in the applications menu alongside other consumer-grade software applications. Click on the Ubuntu logo button which leads to a Show Apps panel).
+
+* * *
+
+STEP_6: Install the TOR Browser (The Onion Router Browser) application.
 
 karbytes uses the open source dark web browser application named Tor Browser to browse the dark web (and surface) web with maximal anonymity and especially to access karbytes' own dark web server hosted .onion pages.
 
@@ -142,7 +159,7 @@ Generally, karbytes pins the Tor Browser application to its Desktop bar.
 
 * * *
 
-STEP_6: Install the Chromium surface web broswer application. 
+STEP_7: Install the Chromium surface web broswer application. 
 
 karbytes uses Chromium (an open source version of Google Chrome) to browse the surface web (as an alternative to using the Firefox browser which comes pre-installed with Ubuntu).
 
@@ -166,7 +183,7 @@ https://web.archive.org/save
 
 * * *
 
-STEP_7: Install the Sublime Text Editor application. 
+STEP_8: Install the Sublime Text Editor application. 
 
 karbytes uses the open source text editor named Sublime to create and edit source code and plain-text files.
 
