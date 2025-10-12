@@ -1,22 +1,24 @@
 /**
  * file: journal_karbytes_08october2025_p0.txt
  * type: plain-text
- * date: 09_OCTOBER_2025
+ * date: 11_OCTOBER_2025
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
 
-The purpose of this journal entry is to provide succinct documentation on how to set up and maintain karbytes-supporting hardware (e.g. laptop computers (for content creation and dark web server hosting), external Blu-Ray M_DISC burners/readers, and essential software to install when acquiring a new laptop such as Ubuntu (a distribution of the Linux operating system), Sublime Text Editor, Brasero (for burning M_DISCs), TOR (i.e. The Onion Router (for accessing karbytes' dark websites)), and light web browsers such as Firefox and Chromium). 
+The purpose of this journal entry is to provide succinct documentation on how to set up and maintain karbytes-supporting hardware (e.g. laptop computers (for content creation and dark web server hosting), external Blu-Ray M_DISC burners/readers, and essential software to install when acquiring a new laptop such as Ubuntu (a distribution of the Linux operating system), Sublime Text Editor, Brasero (for burning M_DISCs), TOR (i.e. The Onion Router (for accessing karbytes’ dark websites)), and light web browsers such as Firefox and Chromium).
 
 ~ ~ ~
 
 KARBYTES_DARK_WEB
 
-Documentation on setting up and running karbytes' dark websites is available at the following two Uniform Resource Locators: 
+Documentation on setting up and running karbytes’ dark websites is available at the following two Uniform Resource Locators:
 
-https://karbytesforlifeblog.wordpress.com/journal_karbytes_24december2024/
+https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_11october2025/
 
 https://karbytesforlifeblog.wordpress.com/onion_web_page_availability_logger/
+
+https://karbytesforlifeblog.wordpress.com/journal_karbytes_24december2024/
 
 ~ ~ ~
 
@@ -64,15 +66,14 @@ https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pa
 
 https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/employment_paycheck_direct_deposit_annotated_screenshot_08october2025.png
 
-4. In general, karbytes intends to keep at least one functional backup laptop and one functional backup M_DISC burner so that karbytes' workflow is not disrupted by the main version of those items becoming unusable by karbytes. karbytes' main hardware items are listed below:
+4. In general, karbytes intends to keep at least one functional backup laptop and one functional backup M_DISC burner so that karbytes’ workflow is not disrupted by the main version of those items becoming unusable by karbytes. karbytes’ main hardware items are listed below:
 
-- dark_web_server: A Ubuntu laptop computer running Tor and Apache services in order to host karbytes' dark websites. That laptop stays on 24 hour per day, 7 days per week except for when karbytes is installing some types of software updates on it or transporting the laptop from one location to another. While that laptop is on and not undergoing server maintenance/transportation, it is supposed to always be (a) connected to a reliable Wi-Fi network, (b) running the Tor and Apache services configured to host karbytes' dark websites (which are tied to exactly two distinct top-level .onion domains), and (c) playing the following sound file on repeat using karbytes' dark web version of the SOUND_TRACK_LOOPER_THREE web application to indicate that the server is on and associated with karbytes' dark websites: amplifier_original_mix_(hardtrance_1995)_by_macrocosm_downloaded_by_karbytes_26march2025.mp3.
+– dark_web_server: A Ubuntu laptop computer running Tor and Apache services in order to host karbytes’ dark websites. That laptop stays on 24 hour per day, 7 days per week except for when karbytes is installing some types of software updates on it or transporting the laptop from one location to another. While that laptop is on and not undergoing server maintenance/transportation, it is supposed to always be (a) connected to a reliable Wi-Fi network, (b) running the Tor and Apache services configured to host karbytes’ dark websites (which are tied to exactly two distinct top-level .onion domains), and (c) playing the following sound file on repeat using karbytes’ dark web version of the SOUND_TRACK_LOOPER_THREE web application to indicate that the server is on and associated with karbytes’ dark websites: amplifier_original_mix_(hardtrance_1995)_by_macrocosm_downloaded_by_karbytes_26march2025.mp3.
 
-- working_laptop: A Ubuntu laptop computer installed with Sublime (for editing plain-text and source code files), Firefox (for browsing the light web), Chromium (for browsing the light web), Tor (for browsing the dark web), VLC Media Player (for playing video files), Brasero (for burning M_DISCs), Cheese (for taking still images and videos via the laptop camera), and OBS Studio (for video recording computer screen activity).
+– working_laptop: A Ubuntu laptop computer installed with Sublime (for editing plain-text and source code files), Firefox (for browsing the light web), Chromium (for browsing the light web), Tor (for browsing the dark web), VLC Media Player (for playing video files), Brasero (for burning M_DISCs), Cheese (for taking still images and videos via the laptop camera), and OBS Studio (for video recording computer screen activity).
 
-- mdisc_burner: An external Blu-Ray disc reader/writer with M_DISC compatibility.
+– smartphone: At least one Android smartphone (such as Samsung Galaxy A03s) for verifying identity, recording images/videos, jotting down notes, and providing a Wi-Fi hotspot (especially for karbytes’ dark web server) as a fallback for when normal Wi-Fi networks are not available for karbytes to use for keeping its dark web server “perpetually online”.
 
-- mdisc_collection: A container of multiple M_DISC copies of the latest unabridged version of karbytes. Older M_DISC copies of karbytes are stored in lower-priority bins while the latest karbytes M_DISCs are inside of a portable highest-priority bin. 
+– mdisc_burner: An external Blu-Ray disc reader/writer with M_DISC compatibility.
 
-
-
+– mdisc_collection: A container of multiple M_DISC copies of the latest unabridged version of karbytes. Older M_DISC copies of karbytes are stored in lower-priority bins while the latest karbytes M_DISCs are inside of a portable highest-priority bin.
