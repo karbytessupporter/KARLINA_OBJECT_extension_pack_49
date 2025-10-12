@@ -176,7 +176,7 @@ Google Pixel (Stock Android)                                   5 minutes        
 Motorola / Nokia / Android One                                 ~5–10 minutes                                    Behavior similar to Google devices.
 Xiaomi / Redmi / MIUI                                          Around 10 minutes                                May allow extending timeout in hotspot settings.
 Huawei / Honor / EMUI                                          10 minutes or less                               Power-saving mode can make it even shorter.
-Carrier-branded phones (T-Mobile, Verizon variants, etc.)	   As little as 2–3 minutes of no data activity     Carriers enforce aggressive shutdown to save data usage.
+Carrier-branded phones (T-Mobile, Verizon variants, etc.)      As little as 2–3 minutes of no data activity     Carriers enforce aggressive shutdown to save data usage.
 
 🎯 Important Details
 
