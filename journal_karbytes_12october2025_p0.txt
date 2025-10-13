@@ -6,7 +6,7 @@
  * license: PUBLIC_DOMAIN
  */
 
-The following is a prompt karbytes used to successfully batch update at least one section of its dark web root directory web page whose source code and Uniform Resource Locator are as follows:
+The following is a ChatGPT-5 prompt karbytes used to successfully batch update at least one section of its dark web root directory web page whose source code and Uniform Resource Locator are as follows:
 
 source_code_file: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/unlisted_web_page_karbytes_darknet_websites_root_directory_web_page.html
 
