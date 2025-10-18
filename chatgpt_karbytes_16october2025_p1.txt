@@ -1,14 +1,14 @@
 /**
- * file: chatgpt_karbytes_14october2025_p0.txt
+ * file: chatgpt_karbytes_16october2025_p0.txt
  * type: plain-text
- * date: 14_OCTOBER_2025
+ * date: 17_OCTOBER_2025
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
 
 The following is a plain-text transcript of a conversation between karbytes and ChatGPT-5 which took place between 11:59PM Pacific Standard Time on 15_OCTOBER_2025 and 11:59PM Pacific Standard Time on 16_OCTOBER_2025. The conversation pertains to the analysis of a journal entry which karbytes wrote during the aforementioned time period and the generation of an image which accompanies that journal entry.
 
-aforementioned_journal_entry: https://karbytesforlifeblog.wordpress.com/radical_forgiveness_spell_card
+aforementioned_journal_entry: https://karbytesforlifeblog.wordpress.com/radical_forgiveness_spell_card.png
 
 relevant_older_journal_entry: https://karbytesforlifeblog.wordpress.com/journal_karbytes_06september2025/
 
