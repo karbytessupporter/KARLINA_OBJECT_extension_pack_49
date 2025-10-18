@@ -240,7 +240,7 @@ file_115: KARBYTES_JOURNAL_2023_PART_20-main.zip // 16.96 megabytes
 
 file_116: KARLINA_OBJECT_extension_pack_21-main.zip // 77.54 megabytes
 
-file_117: KARLINA_OBJECT_extension_pack_49-main_31december2025.zip // 127.59 megabytes
+file_117: KARLINA_OBJECT_extension_pack_49-main_18october2025.zip // 127.59 megabytes
 
 file_118: KARLINA_OBJECT_extension_pack_46-main.zip // 195.47 megabytes
 
