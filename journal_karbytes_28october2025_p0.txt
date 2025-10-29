@@ -1,0 +1,29 @@
+/**
+ * file: journal_karbytes_28october2025_p0.txt
+ * type: plain-text
+ * date: 28_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following personal diary excerpt was written by karbytes during the time interval whose end-points are A and B (where A represents the point in time labeled 11:59PM Pacific Standard Time on 26_OCTOBER_2025 and where B represents the point in time labeled 11:59PM Pacific Standard Time on 28_OCTOBER_2025). 
+
+(The purpose of the following excerpt is to provide karbytes a succinct template for generating descriptive HTML web pages about successive karbytes M_DISC backups which are buried underground inside of sealed metal containers (as a backup to having a rented space to store such items)).
+
+relevant_image_0: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/amazon_order_black_box_safe_for_karbytes2025_22_version_mdisc_burial_28october2025.png
+
+relevant_image_1: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/amazon_order_bluray_mdisc_25gigabytes_each_ten_discs_total_for_storing_karbytes2025_22_version_backups_28october2025.png
+
+* * *
+
+karbytes_origins_time_capsule
+
+The time capsule featured in this web page has the following features:
+
+- The time capsule exterior is depicted by the following photographic image: z.
+
+- The time capsule contains two plastic zipper-locking compact disc cases (with the disc sleeves cut out). Each of those cases contains exactly five plastic jewel cases. Each of such jewel cases stores exactly one M_DISC Blu-Ray copy of the version of karbytes named karbytes2025_22.
+
+- The location of the time capsule is approximately one meter north of the first karbytes time capsule at the following longitude and latitude coordinates: x.
+
+- The time capsule was buried in that location on [date].
