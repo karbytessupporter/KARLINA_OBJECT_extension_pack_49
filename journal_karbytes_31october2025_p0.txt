@@ -1,0 +1,29 @@
+/**
+ * file: journal_karbytes_31october2025_p0.txt
+ * type: plain-text
+ * date: 31_OCTOBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following draft of a blog post disclosing the (initial) geographical and (initial) temporal location of the time capsule which karbytes is in the process of creating and which will exclusively store M_DISC copies of the version of karbytes named karbytes2025_22.
+
+(Note that [undefined_day] in the following passage refers to some finite time period lasting no more than 24 hours and occurring between A and B such that A is 31_OCTOBER_2025 at 11:59PM Pacific Standard Time and B is 20_APRIL_2026 at 11:59PM Pacific Standard Time).
+
+(Note also that [undefined_day] in the following passage refers to exactly one calendar date formatted as DAY_MONTH_YEAR such that DAY is a natural number no larger than 31, MONTH is the name of one of twelve Gregorian calendar months, and YEAR is a natural number representing a particular year of the Gregorian calendar).
+
+(Finally, note that the term karbytes_origins refers to the first 18 to 25 gigabytes of the karbytes file collection and that karbytes_origins was created between the points in time labeled C and D such that C represents 01_JANUARY_2020 on 12:00AM Pacific Standard Time and D represents 20_APRIL_2026 at 11:59PM Pacific Standard Time).
+
+* * *
+
+karbytes_origins_time_capsule
+
+The time capsule featured in this web page has the following features:
+
+– The time capsule exterior is depicted by the following photographic image: https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/black_box_mdisc_safe_for_karbytes2025_22_[31oct2025].jpg
+
+– The time capsule contains two plastic zipper-locking compact disc cases (with the disc sleeves cut out). Each of those cases contains exactly five plastic jewel cases. Each of such jewel cases stores exactly one M_DISC Blu-Ray copy of the version of karbytes named karbytes2025_22.
+
+– The location of the time capsule is approximately one meter north of the first karbytes time capsule at the following (approximate) longitude and latitude coordinates: 37°43’16″N 122°05’00″W.
+
+– The time capsule was buried in that location on [undefined_day].
