@@ -204,7 +204,7 @@ file_97: KARBYTES_JOURNAL_2023_PART_1-main.zip // SHA-256: 0f2e0e448a56363c6317d
 
 file_98: reference_human_genome_fasta_hg38-main.zip // SHA-256: f8f0dee1f4317950bd48faebe3028eb0cad8b9d001b82b20b956e51703449d3e
 
-file_99: KARLINA_OBJECT_extension_pack_49-main_31october2025.zip // SHA-256: 4c3863ca3f440f5b03894efcd99901996740975bc178d215af72eab285b330ae
+file_99: KARLINA_OBJECT_extension_pack_49-main_31october2025.zip // SHA-256: 25c5e556adc49f848a723b87a412947ef39b8e5ee107db2eeed77393840782ca
 
 file_100: KARLINA_OBJECT_extension_pack_40-main.zip // SHA-256: 73f7bf5b30cee1239f285ec1d60d1145639bb96dcf9cf4fbd02760df3f94edb8
 
