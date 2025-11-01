@@ -204,7 +204,7 @@ file_97: KARBYTES_JOURNAL_2023_PART_1-main.zip // 82.76 megabytes
 
 file_98: reference_human_genome_fasta_hg38-main.zip // 937.32 megabytes
 
-file_99: KARLINA_OBJECT_extension_pack_49-main_31october2025.zip // 217.52 megabytes
+file_99: KARLINA_OBJECT_extension_pack_49-main_31october2025.zip // 219.13 megabytes
 
 file_100: KARLINA_OBJECT_extension_pack_40-main.zip // 148.44 megabytes
 
@@ -334,6 +334,6 @@ file_161: KARBYTES_JOURNAL_2023_PART_22-main.zip // 3.29 megabytes
 
 Total number of files: 162
 
-Total folder size: 19293.05 megabytes
+Total folder size: 19294.66 megabytes
 
 --------------------------------
