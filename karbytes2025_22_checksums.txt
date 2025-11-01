@@ -120,11 +120,11 @@ file_55: PRIMARY_WEBSITE_COPY_23_OCTOBER_2022-main.zip // SHA-256: f9236858c81d2
 
 file_56: KARBYTES_JOURNAL_2022_PART_10-main.zip // SHA-256: 9060ed9922d5be9c8fa7c6b298324fe7511d4d3325b89d2693a5f1613076696b
 
-file_57: karbytes_wayback_machine_saves_precision_batches-main_31december2025.zip // SHA-256: 4b2412fbad9c77c460c5e3ca1c251437579354ac8b3ed80affb9a6deb6f94ac8
+file_57: karbytes_wayback_machine_saves_precision_batches-main_31december2025.zip // SHA-256: 62da51eea2f19bd0554c482e5510a1aa2d1c0761e624187535013b1a4e4e7b52
 
 file_58: KARLINA_OBJECT_extension_pack_17-main.zip // SHA-256: 3cfff4eff3d488419479005cddc5dfa463b8684216fe61c33c04b7d26155de02
 
-file_59: KARBYTES_FOR_LIFE_BLOG-main_31december2025.zip // SHA-256: c88c6d4f61b7ba7614f3a3c58ae93290d2570801b1ddb8f9a6b625d601ee3699
+file_59: KARBYTES_FOR_LIFE_BLOG-main_31december2025.zip // SHA-256: cf1dae1ef2ae5359c5ed6abf8b8eb5d2ea527826a606b5f02004624267129afb
 
 file_60: TEMPLATE_micro_directory-main.zip // SHA-256: 1bdcd7854384caafe5f33b1292dca60c00244ed5c51baf16190c20e41edc2f58
 
@@ -204,7 +204,7 @@ file_97: KARBYTES_JOURNAL_2023_PART_1-main.zip // SHA-256: 0f2e0e448a56363c6317d
 
 file_98: reference_human_genome_fasta_hg38-main.zip // SHA-256: f8f0dee1f4317950bd48faebe3028eb0cad8b9d001b82b20b956e51703449d3e
 
-file_99: KARLINA_OBJECT_extension_pack_49-main_31october2025.zip // SHA-256: a416ae97fdf0792b8c5528ffe6c3a3e2555203b1eb81877fe3a1d4e496d97859
+file_99: KARLINA_OBJECT_extension_pack_49-main_31october2025.zip // SHA-256: 4c3863ca3f440f5b03894efcd99901996740975bc178d215af72eab285b330ae
 
 file_100: KARLINA_OBJECT_extension_pack_40-main.zip // SHA-256: 73f7bf5b30cee1239f285ec1d60d1145639bb96dcf9cf4fbd02760df3f94edb8
 
