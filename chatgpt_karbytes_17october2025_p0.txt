@@ -1,12 +1,12 @@
 /**
  * file: chatgpt_karbytes_17october2025_p0.txt
  * type: plain-text
- * date: 18_OCTOBER_2025
+ * date: 05_NOVEMBER_2025
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
 
-The following is a plain-text transcript of a conversation between karbytes and ChatGPT-4o The following is a plain-text transcript of a conversation between karbytes and ChatGPT-4o which took place between 11:59PM Pacific Standard Time on 16_OCTOBER_2025 and 11:59PM Pacific Standard Time on 17_OCTOBER_2025. The conversation pertains to karbytes’ revised approach to curating the karbytes archive (especially with the use of a checksum-generating Python script for verifying the integrity of all karbytes zip files (and all the public zip files which are part of the version of karbytes named karbytes2025_22 can be downloaded from the following web page)): https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2025_22/
+The following is a plain-text transcript of a conversation between karbytes and ChatGPT-4o which took place between 11:59PM Pacific Standard Time on 16_OCTOBER_2025 and 11:59PM Pacific Standard Time on 17_OCTOBER_2025. The conversation pertains to karbytes’ revised approach to curating the karbytes archive (especially with the use of a checksum-generating Python script for verifying the integrity of all karbytes zip files (and all the public zip files which are part of the version of karbytes named karbytes2025_22 can be downloaded from the following web page)): https://karbytesforlifeblog.wordpress.com/mdisc_karbytes2025_22/
 
 Note that, as of 17_OCTOBER_2025 at 11:59PM Pacific Standard Time, karbytes has a revised content management policy outlined in the web page at the following Uniform Resource Locator: https://karbytesforlifeblog.wordpress.com/karbytes_content_management_policy/
 
