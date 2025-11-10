@@ -16,13 +16,13 @@ https://karbytesforlifeblog.wordpress.com/chatgpt_karbytes_05november2025/
 
 To Whom It May Concern:
 
-During the time period whose end points are 11:59PM Pacific Standard Time on 31_OCTOBER_2025 and 11:59PM Pacific Standard Time on 31_DECEMBER_2025, karbytes2025_22 (i.e. the final version of karbytes_origins) is open to changes. After that time period ends, karbytes_origins is determined to be in an immutable state. 
+During the time period whose end points are 11:59PM Pacific Standard Time on 31_OCTOBER_2025 and 11:59PM Pacific Standard Time on 31_DECEMBER_2025, karbytes2025_22 (i.e. the final version of karbytes_origins) is open to changes. After that time period ends, karbytes_origins is determined to be in an immutable state.
 
-During the time period whose end points are 11:59PM Pacific Standard Time on 31_OCTOBER_2025 and 11:59PM Pacific Standard Time on 31_DECEMBER_2026, the versions of karbytes which have names containing the string "karbytes2026_" (and which are the first items to be added to karbytes_nexus) are open to changes. After that time period ends, those "karbytes2026_" versions of karbytes are determined to be in an immutable state. 
+During the time period whose end points are 11:59PM Pacific Standard Time on 31_OCTOBER_2025 and 11:59PM Pacific Standard Time on 31_DECEMBER_2026, the versions of karbytes which have names containing the string “karbytes2026_” (and which are the first items to be added to karbytes_nexus) are open to changes. After that time period ends, those “karbytes2026_” versions of karbytes are determined to be in an immutable state.
 
 The micro-directory of karbytes named raw_github_files_directory_KARLINA_OBJECT_extension_pack_49 is open to changes until 11:59PM Pacific Standard Time on 31_DECEMBER_2025 and is considered to be the final micro-directory to be added to karbytes2025_22.
 
-The micro-directory of karbytes named raw_github_files_directory_karbytes_human_genome_fasta_part_0, raw_github_files_directory_karbytes_human_genome_fasta_part_1, raw_github_files_directory_karbytes_human_genome_fasta_part_2, and raw_github_files_directory_karbytes_human_genome_fasta_part_3 are the first micro-directories to be added to karbytes2026_0 (and karbytes2026_0 is the first version of karbytes to be part of karbyts_nexus). Those genome micro-directories are determined to be immutable as soon as they are released to the public.
+The micro-directory of karbytes named raw_github_files_directory_karbytes_human_genome_fasta_part_0, raw_github_files_directory_karbytes_human_genome_fasta_part_1, raw_github_files_directory_karbytes_human_genome_fasta_part_2, and raw_github_files_directory_karbytes_human_genome_fasta_part_3 are the first micro-directories to be added to karbytes2026_0 (and karbytes2026_0 is the first version of karbytes to be part of karbytes_nexus). Those genome micro-directories are determined to be immutable as soon as they are released to the public.
 
 Sincerely,
 karbytes
