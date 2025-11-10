@@ -1,0 +1,25 @@
+/**
+ * file: journal_karbytes_08november2025_p0.txt
+ * type: plain-text
+ * date: 08_NOVEMBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a continuation of what is discussed in the previous journal entry at the following Uniform Resource Locator:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/journal_karbytes_06november2025_p2.txt
+
+* * *
+
+// automatic file removal by GitHub (due to exceeding file size/quantity limits):
+
+While karbytes was uploading (approximately) 5-megabyte-sized "chunk" files of karbytes' Gzip-compressed FASTA file to a GitHub repository, karbytes encountered the following issue: when the total number of files in that repository exceeded 999, files were being removed from that repository or not showing up in the .zip file downloaded directly from that repository (using green button in the web user interface).
+
+karbytes attempted to resolve that issue by not allowing the total number of files in each karbytes-owned GitHub repository to exceed 999. Hence, karbytes' chunked genome FASTA is being distributed across multiple GitHub repositories (and corresponding "micro directories" in the Karbytes For Life Blog dot WordPress dot Com website).
+
+// successfully archiving the first batch of karbytes genome files in a GitHub repository (which is initially private but later made public):
+
+So far, karbytes was able to successfully store "chunk" files 0000 to 0990 (along with three plain-text journal entry files and one plain-text intellectual property license file) in the following GitHub repository:
+
+https://github.com/karlinarayberinger/karbytes_human_genome_fasta_part_0

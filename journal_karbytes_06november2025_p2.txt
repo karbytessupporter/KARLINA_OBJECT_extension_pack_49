@@ -1,0 +1,57 @@
+/**
+ * file: journal_karbytes_06november2025_p2.txt
+ * type: plain-text
+ * date: 07_NOVEMBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a continuation of what is discussed in the previous journal entry at the following Uniform Resource Locator:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/journal_karbytes_06november2025_p1.txt
+
+* * *
+
+// 1. Splitting one Gzip-compressed FASTA file into multiple <=5 megabyte chunk files:
+
+karbytes changed the name of the .fasta.gz file from KarlinaBeringer-SQ873FU8-30x-WGS-Sequencing_com-11-06-25.1.fasta.gz to karbytes_sequencing_dot_com_30x_genome_SQ873FU8.fasta.gz.
+
+Then karbytes split that .fasta.gz file into multiple chunks each no larger than 5 megabytes using the following Unix shell (bash) command:
+
+[bash]
+
+split -b 5M -d --suffix-length=4 karbytes_sequencing_dot_com_30x_genome_SQ873FU8.fasta.gz karbytes_sequencing_dot_com_30x_genome_SQ873FU8_chunk_
+
+[end bash]
+
+A total of 2,998 chunk files were created. 
+
+The first of those files is named karbytes_sequencing_dot_com_30x_genome_SQ873FU8_chunk_0000.
+
+The last of those files is named karbytes_sequencing_dot_com_30x_genome_SQ873FU8_chunk_2997.
+
+// 2. Recombining the chunk files into the original FASTA file:
+
+karbytes ran the following Unix shell command to combine all the chunk files into the same FASTA file which those chunk files were created from.
+
+[bash]
+
+cat karbytes_sequencing_dot_com_30x_genome_SQ873FU8_chunk_* > karbytes_sequencing_dot_com_30x_genome_SQ873FU8.fasta.gz
+
+[end bash]
+
+// 3. Verifying that original and recombined FASTA files have identical checksums:
+
+karbytes ran the following Unix shell command on both (Gzip-compressed) FASTA files in order to verify that their checksums are identical (which means that there were apparently no errors during the file compression, splitting, and combining processes).
+
+[bash]
+
+sha256sum karbytes_sequencing_dot_com_30x_genome_SQ873FU8.fasta.gz
+
+[end bash]
+
+The result of that command for the original FASTA file is as follows: 5898744ef0b3c7f41e4f4cf4f5078acfde93a6dfea1b44529e8f81f4ef676331  karbytes_sequencing_dot_com_30x_genome_SQ873FU8.fasta.gz
+
+The result of that command for the newer (concatenated) FASTA file is as follows: 5898744ef0b3c7f41e4f4cf4f5078acfde93a6dfea1b44529e8f81f4ef676331  karbytes_sequencing_dot_com_30x_genome_SQ873FU8.fasta.gz
+
+Because both results are identical, it can be assumed that karbytes' FASTA file has been successfully split and concatenated.

@@ -1,0 +1,110 @@
+/**
+ * file: journal_karbytes_06november2025_p1.txt
+ * type: plain-text
+ * date: 07_NOVEMBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+The following is a continuation of what is discussed in the previous journal entry at the following Uniform Resource Locator:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_49/main/journal_karbytes_06november2025_p0.txt
+
+* * *
+
+// .fq.gz --> .fasta.gz
+
+After karbytes downloaded one of the two Gzip-compressed FASTQ files available for karbytes to download in its Sequencing dot Com account (for the 30-fold whole genome sequencing kit whose identifier is SQ873FU8), karbytes used the following Unix commands to convert that Gzip-compressed FASTQ file to a Gzip-compressed FASTA file (which took approximately two hours for the conversion process to complete).
+
+[bash]
+
+sudo apt update
+sudo apt install seqtk
+
+seqtk seq -a KarlinaBeringer-SQ873FU8-30x-WGS-Sequencing_com-11-06-25.1.fq.gz | gzip > KarlinaBeringer-SQ873FU8-30x-WGS-Sequencing_com-11-06-25.1.fasta.gz
+
+[end bash]
+
+The resulting .fasta.gz file has an approximate file size of approximately 15.7 gigabytes.
+
+* * *
+
+// .fasta.gz --> .fasta.naf
+
+In order to maximize the data compression of the .fasta.gz file, karbytes installed NAF via the Unix command line and then generated a .fasta.naf version of the aforementioned .fasta.gz file.
+
+(NAF (i.e. Nucleotide Archival Format) is a specialized, lossless compression format designed specifically for storing and sharing DNA and RNA sequences).
+
+// 1. Install required build tools:
+
+[bash]
+
+sudo apt update
+sudo apt install git gcc make diffutils perl
+
+[end bash]
+
+// 2. Clone the repository:
+
+[bash]
+
+git clone --recurse-submodules https://github.com/KirillKryukov/naf.git
+cd naf
+
+[end bash]
+
+// 3. Build and test:
+
+[bash]
+
+make
+make test
+
+[end bash]
+
+// 4. Install the binaries:
+
+[bash]
+
+sudo make install
+
+[end bash]
+
+// 5. Verify installation:
+
+[bash]
+
+ennaf --version
+unnaf --version
+
+[end bash]
+
+(The NAF tools are: ennaf (compress) and unnaf (decompress)).
+
+// 6. Create temporary directory for ennaf data
+
+[bash]
+
+mkdir -p ~/Desktop/tmp
+
+[end bash]
+
+(The .fasta.gz file is located in the Desktop directory. Hence, tmp is located in the Desktop directory).
+
+// 7. Run ennaf
+
+[bash]
+
+zcat ~/Desktop/KarlinaBeringer-SQ873FU8-30x-WGS-Sequencing_com-11-06-25.1.fasta.gz | \
+ennaf --temp-dir ~/Desktop/tmp > \
+~/Desktop/KarlinaBeringer-SQ873FU8-30x-WGS-Sequencing_com-11-06-25.1.fasta.naf
+
+[end bash]
+
+The resulting .fasta.naf file has an approximate data size of 12.8 gigabytes (which is still too large to fit onto the karbytes_origins M_DISC. Hence, karbytes decided to proceed by splitting the .fasta.gz file into chunk files no larger than 5 megabytes each (which is sufficiently low-entropy to be WayBack Machine saveable) using the same process outlined in the following journal entry):
+
+https://karbytesforlifeblog.wordpress.com/journal_karbytes_01october2025/
+
+
+
+

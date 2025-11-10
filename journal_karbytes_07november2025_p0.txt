@@ -1,0 +1,14 @@
+/**
+ * file: journal_karbytes_07november2025_p0.txt
+ * type: plain-text
+ * date: 07_NOVEMBER_2025
+ * author: karbytes
+ * license: PUBLIC_DOMAIN
+ */
+
+karbytes.25gb_mdisc(karbytes_origins).contents := karbytes2025_22. // Officially after 31_DECEMBER_2025 at 11:59PM Pacific Standard Time
+
+karbytes.25gb_mdisc(karbytes_nexus).contents := karbytes_kernel + karbytes2026_*. // Officially after 31_DECEMBER_2026 at 11:59PM Pacific Standard Time
+
+karbytes_kernel.contains(karbytes_human_genome_fasta) := false. // Officially after 31_DECEMBER_2026 at 11:59PM Pacific Standard Time
+
