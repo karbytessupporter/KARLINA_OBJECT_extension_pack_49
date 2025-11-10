@@ -2,7 +2,7 @@
  * file: sound_track_looper_three.js
  * type: JavaScript
  * author: karbytes
- * date: 13_OCTOBER_2025
+ * date: 09_NOVEMBER_2025
  * license: PUBLIC_DOMAIN
  */
 
@@ -128,6 +128,7 @@ function get_menu_options() {
 	'constellation_by_jim_oliver_from_healing_music_project:_radiance_[released:_13january2004].mp3',
 	'deep_summer_spacetime_continuum_sound_13june2024.mp3',
         'diamond_(original_mix)_by_giada_released_2002_downloaded_by_karbytes_26march2025.mp3',
+		'dissection_nights_blood_1995.mp3',
         'drums_karbytes_05june2025.mp3',
         'drums_karbytes_08march2025.mp3',
         'eagle_of_the_serpent_sun_from_winds_of_serpentine_ascension_by_into_oblivion_downloaded_by_karbytes_on_11april2024.mp3',
@@ -400,4 +401,3 @@ function start_sound_track_looper() {
 		console.log("An exception to normal functioning occurred during the runtime of start_sound_track_looper(): " + e);
 	}
 }
-
